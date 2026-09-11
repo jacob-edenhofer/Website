@@ -1,6 +1,6 @@
 # Teaching
 
-I teach formal political economy at Oxford and have taught climate policy and the policy process at the Hertie School.
+I teach formal political economy at Oxford and have worked as a teaching assistant at the Hertie School.
 
 Formal political economy should help students engage more deeply and critically with modern research. It should also provide a more nuanced understanding of the rationales that underlie two institutions which characterise modern democracies, elections and interest groups.
 
@@ -20,4 +20,4 @@ Students may write a weekly essay that explains and applies the model or solve e
 
 ## Climate policy
 
-At the Hertie School, I have taught on *Advanced Climate Policy* and *Policy Process — Climate Policy*.
+At the Hertie School, I worked as a teaching assistant for Christian Flachsland on *Advanced Climate Policy* and *Policy Process — Climate Policy*. I made a substantial contribution to preparing and revising the lecture slides.

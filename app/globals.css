@@ -25,7 +25,7 @@ p { margin: 0 0 1.1em; }
 .page-width { width: min(860px, calc(100% - 48px)); margin-inline: auto; }
 .site-shell { min-height: 100vh; display: flex; flex-direction: column; }
 .site-shell > main { flex: 1; }
-.header-inner { display: flex; align-items: center; justify-content: flex-start; gap: 32px; min-height: 88px; border-bottom: 1px solid var(--line); }
+.header-inner { display: flex; align-items: center; justify-content: flex-start; gap: 56px; min-height: 88px; border-bottom: 1px solid var(--line); }
 .home-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: .875rem; white-space: nowrap; color: var(--muted); text-decoration: none; }
 .home-link:hover { color: var(--ink); text-decoration: underline; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: .875rem; }
@@ -34,7 +34,7 @@ p { margin: 0 0 1.1em; }
 .skip-link { position: absolute; left: 16px; top: -100px; padding: 10px 16px; background: var(--paper); color: var(--ink); z-index: 10; }
 .skip-link:focus { top: 12px; }
 .hero { padding-block: 62px 42px; }
-.hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) 164px; gap: 36px; max-width: 640px; align-items: start; }
+.hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) 164px; gap: 36px; max-width: 720px; align-items: start; }
 .hero-role { margin: 14px 0 0; font-size: .9375rem; color: var(--muted); }
 .hero-contact { margin-top: 28px; font-size: .9375rem; font-style: normal; overflow-wrap: anywhere; }
 .hero-social { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 12px; font-size: .875rem; }
@@ -63,6 +63,7 @@ p { margin: 0 0 1.1em; }
 .prose h2 { margin-top: 42px; margin-bottom: 18px; padding-top: 28px; border-top: 1px solid var(--line); }
 .prose h3 { margin: 27px 0 13px; }
 .prose p, .prose ul, .prose ol, .prose blockquote { max-width: 720px; }
+.prose p, .paper-summary, .abstract-toggle p, .group-description, .writing-description, .writing-section-heading > p { text-align: justify; hyphens: auto; }
 .prose ul, .prose ol { padding-left: 24px; margin-block: 18px 24px; }
 .prose ul { list-style: disc; }
 .prose ol { list-style: decimal; }
