@@ -104,6 +104,14 @@ export const reviewsAndEssays: WritingItem[] = [
 
 export const democracyAndAdvice: WritingItem[] = [
   {
+    title: "Wissenschaft und Politikberatung in Zeiten gesellschaftlicher Spaltung",
+    authors: "With Ottmar Edenhofer",
+    outlet: "Brandenburg state parliament, Potsdam",
+    date: "8 July 2026",
+    href: "https://mwfk.brandenburg.de/sixcms/media.php/9/05_ProfOttmarEdenhofer_Politikberatung_PowerPointVortrag.pdf",
+    description: "We prepared these slides for Ottmar Edenhofer’s keynote at ‘Resilienz des deutschen Wissenschaftssystems – Verantwortung gemeinsam übernehmen’, a conference on the resilience of Germany’s science system.",
+  },
+  {
     title: "60 Minuten: (Rechts-)Populismus: Altes Problem, junge Stimmen",
     authors: "With Christian Leßmann, Luisa Dörr and Julius Kölzer",
     outlet: "ifo Institute and TU Dresden",
@@ -112,20 +120,12 @@ export const democracyAndAdvice: WritingItem[] = [
     description: "A public discussion of the sources of support for populist parties in Germany and elsewhere in Europe.",
   },
   {
-    title: "Wissenschaft und Politikberatung in Zeiten gesellschaftlicher Spaltung",
-    authors: "Ottmar Edenhofer",
-    outlet: "Presentation",
-    date: "2026",
-    href: "https://mwfk.brandenburg.de/sixcms/media.php/9/05_ProfOttmarEdenhofer_Politikberatung_PowerPointVortrag.pdf",
-    description: "A presentation on scientific advice and democratic authority amid political polarisation.",
-  },
-  {
     title: "Towards a more nuanced understanding of right-wing populism",
     authors: "Jacob Edenhofer",
-    outlet: "Friedrich Naumann Foundation presentation",
+    outlet: "Friedrich Naumann Foundation, Europe Workshop",
     date: "25 November 2025",
     href: "https://www.dropbox.com/scl/fi/v3nes994lb0ml0pwwu6xs/RWP_Naumann_Stiftung_EdenhoferNov2025_long.pdf?rlkey=d9e5dvibsc0fif4d3kd1809j6&st=gdul11fl&dl=0",
-    description: "A review of research on the causes and consequences of right-wing populism and the available responses.",
+    description: "Across 85 slides, I offer a synthesis and my interpretation of the literature on the causes and consequences of right-wing populism and assess potential countermeasures.",
   },
 ];
 

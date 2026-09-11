@@ -35,15 +35,9 @@ const statusGroups = [
 const themes = [
   {
     id: "theme-climate",
-    title: "Climate politics",
+    title: "Climate Politics",
     description: "My DPhil manuscript and related papers examine uncertain public support, economic adjustment, compensation and the institutions of decarbonisation.",
     papers: researchByProgramme.climate,
-  },
-  {
-    id: "theme-state-capacity",
-    title: "State Capacity",
-    description: "These papers examine how information constrains fiscal policy and how political conflict influences investment in the legal and administrative capacity to tax.",
-    papers: researchByProgramme.stateCapacity,
   },
   {
     id: "theme-populism",
@@ -52,8 +46,14 @@ const themes = [
     papers: researchByProgramme.populism,
   },
   {
+    id: "theme-state-capacity",
+    title: "State capacity",
+    description: "These papers examine how information constrains fiscal policy and how political conflict influences investment in the legal and administrative capacity to tax.",
+    papers: researchByProgramme.stateCapacity,
+  },
+  {
     id: "theme-cpe",
-    title: "Comparative political economy",
+    title: "Other comparative political economy",
     description: "These projects examine taxation, inflation, redistribution and the allocation of benefits across voters.",
     papers: researchByProgramme.cpe,
   },

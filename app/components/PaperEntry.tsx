@@ -14,7 +14,6 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
         {paper.subtitle && <p className="dphil-subtitle">{paper.subtitle}</p>}
         <p className="paper-authors">{paper.authors}</p>
         <p className="paper-meta">{metadata}</p>
-        <p className="paper-summary">{paper.summary}</p>
         <div className="paper-links">
           {paper.links.map((link) => (
             <a href={link.href} key={link.label}>{link.label}</a>
