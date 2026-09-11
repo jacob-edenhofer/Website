@@ -17,7 +17,7 @@ export function Header() {
             <Link href="/research">Research</Link>
             <Link href="/writing">Writing &amp; public engagement</Link>
             <Link href="/teaching">Teaching</Link>
-            <Link href="/service">Professional service</Link>
+            <Link href="/service">Service</Link>
             <Link href="/file-drawer">File drawer</Link>
             <a href="/Jacob_Edenhofer_CV.pdf">CV</a>
           </nav>

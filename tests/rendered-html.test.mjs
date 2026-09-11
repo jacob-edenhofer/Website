@@ -50,7 +50,7 @@ test("homepage reflects the requested introduction and navigation", () => {
   const header = html.match(/<header\b[^>]*>[\s\S]*?<\/header>/)?.[0] || "";
   const main = html.match(/<main\b[^>]*>[\s\S]*?<\/main>/)?.[0] || "";
   const footer = html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/)?.[0] || "";
-  assert.match(header, /Professional service/);
+  assert.match(header, /href="\/service\/?">Service<\/a>/);
   assert.match(header, /File drawer/);
   assert.match(main, /mailto:jacob.edenhofer@nuffield.ox.ac.uk/);
   assert.match(footer, /mailto:jacob.edenhofer@nuffield.ox.ac.uk/);
