@@ -98,7 +98,7 @@ export const reviewsAndEssays: WritingItem[] = [
     outlet: "Amazon review",
     date: "24 March 2026",
     href: "https://www.amazon.co.uk/Billionaire-Backlash-Corporate-Scandal-Democracy/dp/1399424149#customerReviews",
-    description: "A review of Pepper Culpepper and Taeku Lee’s Billionaire Backlash.",
+    description: "A review of Pepper Culpepper and Taeku Lee’s ‘Billionaire Backlash’.",
   },
 ];
 

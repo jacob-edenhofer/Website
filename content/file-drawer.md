@@ -16,7 +16,7 @@ With Henri Gruhl, Johannes Brehm and Lara Hankeln
 
 ### The theoretical intuition
 
-Climate policy may threaten occupational identity and status alongside income. We examined whether men in traditionally masculine sectors expressed greater support for compensation when a transition also involved movement into an occupation perceived as less masculine.
+Climate policy may threaten income, occupational identity and status. We examined whether men in traditionally masculine sectors expressed greater support for compensation when a transition also involved movement into an occupation perceived as less masculine.
 
 ### The research design
 

@@ -15,7 +15,7 @@ export function Header() {
           </Link>
           <nav className="site-nav" aria-label="Main navigation">
             <Link href="/research">Research</Link>
-            <Link href="/writing">Writing</Link>
+            <Link href="/writing">Writing &amp; public engagement</Link>
             <Link href="/teaching">Teaching</Link>
             <Link href="/service">Professional service</Link>
             <Link href="/file-drawer">File drawer</Link>
