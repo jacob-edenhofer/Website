@@ -4,7 +4,7 @@ I contribute to shared academic work through scientific assessment, seminar orga
 
 ## IPCC Seventh Assessment Report
 
-I have been appointed as a Contributing Author to the governance chapter of the next assessment report of the Intergovernmental Panel on Climate Change.
+As a Contributing Author to the Intergovernmental Panel on Climate Change’s Seventh Assessment Report, I work with Christian Flachsland and Alice Xu on the political economy section of the governance chapter.
 
 ## Nuffield Comparative Political Economy Seminar
 

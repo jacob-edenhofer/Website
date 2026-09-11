@@ -2,6 +2,10 @@
 
 I teach formal political economy at Oxford and have taught climate policy and the policy process at the Hertie School.
 
+Formal political economy should help students engage more deeply and critically with modern research. It should also provide a more nuanced understanding of the rationales that underlie two institutions which characterise modern democracies, elections and interest groups.
+
+Such an understanding matters for scholarship and for reflecting on the meaning of good democratic citizenship, both in private, when casting a vote, and in public, when choosing an occupation and making everyday decisions in work connected to policymaking. My hope is that the formal demands of the models never deter us from exploring their implications for lived experience.
+
 ## A Second Introduction to Formal Political Economy
 
 Oxford · Trinity Term · 2025 and 2026
@@ -17,10 +21,3 @@ Students may write a weekly essay that explains and applies the model or solve e
 ## Climate policy
 
 At the Hertie School, I have taught on *Advanced Climate Policy* and *Policy Process — Climate Policy*.
-
-## Models, institutions and democratic citizenship
-
-Formal political economy should help students engage more deeply and critically with modern research. It should also provide a more nuanced understanding of the rationales that underlie two institutions which characterise modern democracies, elections and interest groups.
-
-Such an understanding matters for scholarship and for reflecting on the meaning of good democratic citizenship, both in private, when casting a vote, and in public, when choosing an occupation and making everyday decisions in work connected to policymaking. My hope is that the formal demands of the models never deter us from exploring their implications for lived experience.
-

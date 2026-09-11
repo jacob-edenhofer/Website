@@ -30,6 +30,13 @@ export const researchCommentary: WritingItem[] = [
     href: "https://zeitung.faz.net/faz/wirtschaft/2025-04-07/naehrboden-fuer-populisten/1151252.html#verschenken",
   },
   {
+    title: "When and Why Compensation Can Unlock the Green Energy Transition",
+    authors: "With Federica Genovese",
+    outlet: "Progressive Politics Research Network",
+    date: "December 2024",
+    href: "https://politicscentre.nuffield.ox.ac.uk/media/zdubebua/1_edenhofer_genovese.pdf",
+  },
+  {
     title: "From Local to National: Austerity, Immigration and Support for UKIP",
     authors: "With Eleonora Alabrese, Thiemo Fetzer and Shizhuo Wang",
     outlet: "UK in a Changing Europe",
@@ -53,13 +60,6 @@ export const researchCommentary: WritingItem[] = [
 ];
 
 export const publicAffairsWriting: WritingItem[] = [
-  {
-    title: "When and Why Compensation Can Unlock the Green Energy Transition",
-    authors: "With Federica Genovese",
-    outlet: "Progressive Politics Research Network",
-    date: "December 2024",
-    href: "https://politicscentre.nuffield.ox.ac.uk/media/zdubebua/1_edenhofer_genovese.pdf",
-  },
   {
     title: "Not a Disaster, but a Missed Opportunity",
     authors: "With Christian Flachsland and Claudia Zwar",
@@ -132,6 +132,6 @@ export const democracyAndAdvice: WritingItem[] = [
 export const featuredWriting: WritingItem[] = [
   reviewsAndEssays[0],
   reviewsAndEssays[1],
-  publicAffairsWriting[3],
-  publicAffairsWriting[1],
+  publicAffairsWriting[2],
+  publicAffairsWriting[0],
 ];
