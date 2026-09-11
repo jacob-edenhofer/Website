@@ -3,7 +3,6 @@ export type Programme = "climate" | "state-capacity" | "populism" | "cpe" | "dem
 export type ResearchKind =
   | "manuscript"
   | "publication"
-  | "forthcoming"
   | "revise-and-resubmit"
   | "working-paper"
   | "work-in-progress"
@@ -46,8 +45,8 @@ export const research: ResearchItem[] = [
     slug: "domestic-political-economy-net-zero",
     title: "The Domestic Political Economy of Net Zero",
     authors: "Jacob Edenhofer, Maurice Hirt and Federica Genovese",
-    kind: "forthcoming",
-    status: "Forthcoming",
+    kind: "publication",
+    status: "Published",
     venue: "Oxford Review of Economic Policy",
     year: "2026",
     programmes: ["climate"],
@@ -275,7 +274,6 @@ const newestFirst = (papers: ResearchItem[]) =>
 
 export const researchByKind = {
   publications: newestFirst(research.filter((paper) => paper.kind === "publication")),
-  forthcoming: newestFirst(research.filter((paper) => paper.kind === "forthcoming")),
   reviseAndResubmit: newestFirst(research.filter((paper) => paper.kind === "revise-and-resubmit")),
   workingPapers: newestFirst(research.filter((paper) => paper.kind === "working-paper")),
   workInProgress: [dphilManuscript, ...newestFirst(research.filter((paper) => paper.kind === "work-in-progress"))],

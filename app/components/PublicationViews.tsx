@@ -11,11 +11,6 @@ const statusGroups = [
     papers: researchByKind.publications,
   },
   {
-    id: "forthcoming-articles",
-    title: "Forthcoming",
-    papers: researchByKind.forthcoming,
-  },
-  {
     id: "revise-and-resubmit",
     title: "Revise and resubmit",
     papers: researchByKind.reviseAndResubmit,
