@@ -41,8 +41,14 @@ const themes = [
   {
     id: "theme-climate",
     title: "Climate politics",
-    description: "My DPhil manuscript and related papers examine uncertain public support, economic adjustment, compensation, state capacity and the institutions of decarbonisation.",
+    description: "My DPhil manuscript and related papers examine uncertain public support, economic adjustment, compensation and the institutions of decarbonisation.",
     papers: researchByProgramme.climate,
+  },
+  {
+    id: "theme-state-capacity",
+    title: "State Capacity",
+    description: "These papers examine how information constrains fiscal policy and how political conflict influences investment in the legal and administrative capacity to tax.",
+    papers: researchByProgramme.stateCapacity,
   },
   {
     id: "theme-populism",
@@ -53,7 +59,7 @@ const themes = [
   {
     id: "theme-cpe",
     title: "Comparative political economy",
-    description: "These projects examine taxation, state capacity, artificial intelligence, inflation, redistribution and the allocation of benefits across voters.",
+    description: "These projects examine taxation, inflation, redistribution and the allocation of benefits across voters.",
     papers: researchByProgramme.cpe,
   },
   {

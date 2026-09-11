@@ -1,4 +1,4 @@
-export type Programme = "climate" | "populism" | "cpe" | "democracy";
+export type Programme = "climate" | "state-capacity" | "populism" | "cpe" | "democracy";
 
 export type ResearchKind =
   | "manuscript"
@@ -162,7 +162,7 @@ export const research: ResearchItem[] = [
     status: "Working paper",
     venue: "CEPR Discussion Paper No. 18773",
     year: "2024",
-    programmes: ["climate"],
+    programmes: ["state-capacity"],
     summary: "We examine how limits on the information that governments can gather, process and use constrain fiscal responses to crises.",
     abstract: "Conventional accounts of state capacity emphasise fiscal or extractive capacity, although similar revenues can produce very different public outcomes. We examine the capacity of governments to gather, process and use information in fiscal policy. Limited informational capacity can make targeted and less distortionary responses difficult, particularly when governments must act quickly. A theoretical framework identifies the incentives to use broad or distortionary instruments. We apply it to the fiscal response to the energy price shock that followed Russia’s invasion of Ukraine.",
     links: [
@@ -179,7 +179,7 @@ export const research: ResearchItem[] = [
     venue: "SSRN Scholarly Paper No. 7368958",
     year: "2026",
     date: "28 August 2026",
-    programmes: ["cpe"],
+    programmes: ["state-capacity"],
     summary: "We examine when conflict between conventional firms and AI firms creates support for investment in the legal and administrative capacity to tax rents from artificial intelligence.",
     abstract: "Artificial intelligence may reduce labour’s share of income and weaken revenues from taxes on labour. Taxing rents from AI requires legal and administrative capacity to identify and value those returns. In the absence of this capacity, governments may use broad taxes on capital that impose a substantial burden on conventional firms. More targeted taxation gives those firms a reason to support investment in fiscal capacity. We develop a political economy model to examine when this support leads to investment as AI firms gain political power. The analysis considers the effects of inequality, declining revenues from taxes on labour, the speed of the transition and the relative political power of conventional and AI firms.",
     links: [{ label: "Paper", href: "https://doi.org/10.2139/ssrn.7368958" }],
@@ -284,6 +284,7 @@ export const researchByKind = {
 
 export const researchByProgramme = {
   climate: [dphilManuscript, ...newestFirst(research.filter((paper) => paper.programmes.includes("climate")))],
+  stateCapacity: newestFirst(research.filter((paper) => paper.programmes.includes("state-capacity"))),
   populism: newestFirst(research.filter((paper) => paper.programmes.includes("populism"))),
   cpe: newestFirst(research.filter((paper) => paper.programmes.includes("cpe"))),
   democracy: newestFirst(research.filter((paper) => paper.programmes.includes("democracy"))),
