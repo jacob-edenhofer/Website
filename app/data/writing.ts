@@ -1,0 +1,137 @@
+export type WritingItem = {
+  title: string;
+  authors: string;
+  outlet: string;
+  date: string;
+  href: string;
+  description?: string;
+};
+
+export const researchCommentary: WritingItem[] = [
+  {
+    title: "Behind Populists’ Anti-Technocratic Fervor and Its Consequences for Liberal Democracy",
+    authors: "With Gabriele Gratton",
+    outlet: "ProMarket",
+    date: "14 May 2025",
+    href: "https://www.promarket.org/2025/05/14/behind-populists-anti-technocratic-fervor-and-its-consequences-for-liberal-democracy/",
+  },
+  {
+    title: "Informational Boundaries of the State and the Energy Crisis",
+    authors: "With Thiemo Fetzer and Callum Shaw",
+    outlet: "VoxEU",
+    date: "11 April 2025",
+    href: "https://cepr.org/voxeu/columns/informational-boundaries-state-and-energy-crisis",
+  },
+  {
+    title: "Nährboden für Populisten",
+    authors: "With Thiemo Fetzer and Prashant Garg",
+    outlet: "Frankfurter Allgemeine Zeitung",
+    date: "7 April 2025",
+    href: "https://zeitung.faz.net/faz/wirtschaft/2025-04-07/naehrboden-fuer-populisten/1151252.html#verschenken",
+  },
+  {
+    title: "From Local to National: Austerity, Immigration and Support for UKIP",
+    authors: "With Eleonora Alabrese, Thiemo Fetzer and Shizhuo Wang",
+    outlet: "UK in a Changing Europe",
+    date: "5 November 2024",
+    href: "https://ukandeu.ac.uk/from-local-to-national-austerity-immigration-and-support-for-ukip/",
+  },
+  {
+    title: "Local Decline and Populism",
+    authors: "With Thiemo Fetzer and Prashant Garg",
+    outlet: "VoxEU",
+    date: "15 September 2024",
+    href: "https://cepr.org/voxeu/columns/local-decline-and-populism",
+  },
+  {
+    title: "Levelling up by Levelling down? The Economic and Political Costs of Brexit",
+    authors: "With Eleonora Alabrese, Thiemo Fetzer and Shizhuo Wang",
+    outlet: "UK in a Changing Europe",
+    date: "6 September 2024",
+    href: "https://ukandeu.ac.uk/levelling-up-by-levelling-down-the-economic-and-political-costs-of-brexit/",
+  },
+];
+
+export const publicAffairsWriting: WritingItem[] = [
+  {
+    title: "When and Why Compensation Can Unlock the Green Energy Transition",
+    authors: "With Federica Genovese",
+    outlet: "Progressive Politics Research Network",
+    date: "December 2024",
+    href: "https://politicscentre.nuffield.ox.ac.uk/media/zdubebua/1_edenhofer_genovese.pdf",
+  },
+  {
+    title: "Not a Disaster, but a Missed Opportunity",
+    authors: "With Christian Flachsland and Claudia Zwar",
+    outlet: "Verfassungsblog",
+    date: "9 May 2024",
+    href: "https://verfassungsblog.de/german-federal-climate-protection-act/",
+  },
+  {
+    title: "Chancen der Klimapolitik in Zeiten geopolitischer Spannungen",
+    authors: "With Ottmar Edenhofer, Matthias Kalkuhl and Cecilia Kilimann",
+    outlet: "Amos international",
+    date: "2023",
+    href: "https://www.amosinternational.de/user/pages/02.magazine/issue-2023-4/amos_23-4S27-16%20O.Edenhofer%2C%20J.%20Edenhofer%2C%20Kalkuhl%20u.%20Killimann.pdf?g-08381e3e=",
+  },
+  {
+    title: "Die Welt retten geht nur demokratisch",
+    authors: "With Ottmar Edenhofer",
+    outlet: "Publik-Forum",
+    date: "17 November 2023",
+    href: "https://www.publik-forum.de/politik-gesellschaft/die-welt-retten-geht-nur-demokratisch",
+  },
+];
+
+export const reviewsAndEssays: WritingItem[] = [
+  {
+    title: "Shared Prosperity in a Fractured World by Dani Rodrik",
+    authors: "With Gabriele Gratton",
+    outlet: "Economic Record",
+    date: "5 April 2026",
+    href: "https://doi.org/10.1111/1475-4932.70046",
+    description: "A review of Rodrik’s programme for the middle class, poorer countries and climate policy.",
+  },
+  {
+    title: "From Quiet to Noisy Politics: An Excellent Book on Corporate Power in Democracies",
+    authors: "Jacob Edenhofer",
+    outlet: "Amazon review",
+    date: "24 March 2026",
+    href: "https://www.amazon.co.uk/Billionaire-Backlash-Corporate-Scandal-Democracy/dp/1399424149#customerReviews",
+    description: "A review of Pepper Culpepper and Taeku Lee’s Billionaire Backlash.",
+  },
+];
+
+export const democracyAndAdvice: WritingItem[] = [
+  {
+    title: "60 Minuten: (Rechts-)Populismus: Altes Problem, junge Stimmen",
+    authors: "With Christian Leßmann, Luisa Dörr and Julius Kölzer",
+    outlet: "ifo Institute and TU Dresden",
+    date: "13 January 2026",
+    href: "https://youtu.be/fkkVFYv_cL8?si=CxY9xmO0l2f9PR-f",
+    description: "A public discussion of the sources of support for populist parties in Germany and elsewhere in Europe.",
+  },
+  {
+    title: "Wissenschaft und Politikberatung in Zeiten gesellschaftlicher Spaltung",
+    authors: "Ottmar Edenhofer",
+    outlet: "Presentation",
+    date: "2026",
+    href: "https://mwfk.brandenburg.de/sixcms/media.php/9/05_ProfOttmarEdenhofer_Politikberatung_PowerPointVortrag.pdf",
+    description: "A presentation on scientific advice and democratic authority amid political polarisation.",
+  },
+  {
+    title: "Towards a more nuanced understanding of right-wing populism",
+    authors: "Jacob Edenhofer",
+    outlet: "Friedrich Naumann Foundation presentation",
+    date: "25 November 2025",
+    href: "https://www.dropbox.com/scl/fi/v3nes994lb0ml0pwwu6xs/RWP_Naumann_Stiftung_EdenhoferNov2025_long.pdf?rlkey=d9e5dvibsc0fif4d3kd1809j6&st=gdul11fl&dl=0",
+    description: "A review of research on the causes and consequences of right-wing populism and the available responses.",
+  },
+];
+
+export const featuredWriting: WritingItem[] = [
+  reviewsAndEssays[0],
+  reviewsAndEssays[1],
+  publicAffairsWriting[3],
+  publicAffairsWriting[1],
+];
