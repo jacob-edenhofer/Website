@@ -26,6 +26,7 @@ p { margin: 0 0 1.1em; }
 .page-width { width: min(860px, calc(100% - 48px)); margin-inline: auto; }
 .site-shell { min-height: 100vh; display: flex; flex-direction: column; }
 .site-shell > main { flex: 1; }
+.header-inner, .footer-inner, .home-about > .section-heading-inline { max-width: var(--text-width); }
 .header-inner { display: flex; align-items: center; min-height: 88px; border-bottom: 1px solid var(--line); }
 .header-layout { display: flex; align-items: center; gap: 60px; width: 100%; max-width: var(--text-width); }
 .home-link { display: inline-flex; align-items: center; flex-shrink: 0; gap: 8px; min-height: 44px; font-size: .875rem; white-space: nowrap; color: var(--muted); text-decoration: none; }
