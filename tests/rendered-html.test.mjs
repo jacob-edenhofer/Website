@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
+import { basePath, siteOrigin, sitePath } from "../site.config.mjs";
 
 const output = path.resolve("out");
 const routes = ["/", "/research/", "/writing/", "/teaching/", "/service/", "/file-drawer/", "/publications/"];
@@ -25,9 +26,10 @@ test("local links, downloadable files and generated assets exist", async () => {
       for (const attribute of tag[0].matchAll(/\b(?:href|src)="([^"]+)"/g)) {
         const value = attribute[1].replaceAll("&amp;", "&");
         if (/^(?:[a-z]+:|\/\/)/i.test(value)) continue;
-        const url = new URL(value, `https://example.test${route}`);
+        const url = new URL(value, `https://example.test${basePath}${route}`);
         const pathname = decodeURIComponent(url.pathname);
-        let target = path.join(output, pathname);
+        assert.ok(pathname.startsWith(`${basePath}/`), `${route}: URL outside repository path ${value}`);
+        let target = path.join(output, pathname.slice(basePath.length));
         let info;
         try { info = await stat(target); } catch { assert.fail(`${route}: missing ${value}`); }
         if (info.isDirectory()) { target = path.join(target, "index.html"); await stat(target); }
@@ -50,7 +52,7 @@ test("homepage reflects the requested introduction and navigation", () => {
   const header = html.match(/<header\b[^>]*>[\s\S]*?<\/header>/)?.[0] || "";
   const main = html.match(/<main\b[^>]*>[\s\S]*?<\/main>/)?.[0] || "";
   const footer = html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/)?.[0] || "";
-  assert.match(header, /href="\/service\/?">Service<\/a>/);
+  assert.match(header, new RegExp(`href="${basePath}/service/?">Service</a>`));
   assert.match(header, /File drawer/);
   assert.match(main, /mailto:jacob.edenhofer@nuffield.ox.ac.uk/);
   assert.match(footer, /mailto:jacob.edenhofer@nuffield.ox.ac.uk/);
@@ -58,5 +60,12 @@ test("homepage reflects the requested introduction and navigation", () => {
 });
 
 test("old publications URL retains a usable research link", () => {
-  assert.match(pages.get("/publications/"), /href="\/research\/#papers"/);
+  assert.ok(pages.get("/publications/").includes(`href="${sitePath("/research/#papers")}"`));
+});
+
+test("social preview images use the public repository address", () => {
+  for (const html of pages.values()) {
+    assert.ok(html.includes(`content="${siteOrigin}${sitePath("/og.png")}"`));
+    assert.ok(!html.includes("jacob-edenhofer98.chatgpt.site"));
+  }
 });

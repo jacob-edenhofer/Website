@@ -1,6 +1,7 @@
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
+import { basePath } from "../site.config.mjs";
 
 const root = path.resolve("out");
 const port = Number(process.env.PORT || 4173);
@@ -11,7 +12,11 @@ createServer(async (request, response) => {
   if (!["GET", "HEAD"].includes(request.method)) { response.writeHead(405, { Allow: "GET, HEAD" }); response.end(); return; }
   try {
     const pathname = decodeURIComponent(new URL(request.url, "http://localhost").pathname);
-    let file = path.resolve(root, `.${pathname}`);
+    if (pathname === "/" || pathname === basePath) {
+      response.writeHead(302, { Location: `${basePath}/` }); response.end(); return;
+    }
+    if (!pathname.startsWith(`${basePath}/`)) throw new Error("Path outside website");
+    let file = path.resolve(root, `.${pathname.slice(basePath.length)}`);
     if (file !== root && !file.startsWith(`${root}${path.sep}`)) { response.writeHead(403); response.end(); return; }
     const info = await stat(file);
     if (info.isDirectory()) file = path.join(file, "index.html");
@@ -23,4 +28,4 @@ createServer(async (request, response) => {
     response.writeHead(404, { "Content-Type": "text/html; charset=utf-8" });
     response.end(request.method === "HEAD" ? undefined : data);
   }
-}).listen(port, "127.0.0.1", () => console.log(`Website preview: http://127.0.0.1:${port}`));
+}).listen(port, "127.0.0.1", () => console.log(`Website preview: http://127.0.0.1:${port}${basePath}/`));

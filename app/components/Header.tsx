@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { sitePath } from "../../site.config.mjs";
 
 export function Header() {
   return (
@@ -19,7 +20,7 @@ export function Header() {
             <Link href="/teaching">Teaching</Link>
             <Link href="/service">Service</Link>
             <Link href="/file-drawer">File drawer</Link>
-            <a href="/Jacob_Edenhofer_CV.pdf">CV</a>
+            <a href={sitePath("/Jacob_Edenhofer_CV.pdf")}>CV</a>
           </nav>
         </div>
       </div>

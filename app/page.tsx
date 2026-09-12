@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { sitePath } from "../site.config.mjs";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Markdown } from "./components/Markdown";
@@ -28,7 +29,7 @@ export default function Home() {
               </nav>
             </div>
             <figure className="hero-portrait">
-              <Image src="/jacob-edenhofer.webp" alt="Jacob Edenhofer at Nuffield College" width={1600} height={1067} priority sizes="(max-width: 560px) 112px, 164px" />
+              <Image src={sitePath("/jacob-edenhofer.webp")} alt="Jacob Edenhofer at Nuffield College" width={1600} height={1067} priority sizes="(max-width: 560px) 112px, 164px" />
               <figcaption>Photograph by Tom Weller</figcaption>
             </figure>
           </div>
