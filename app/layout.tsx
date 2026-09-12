@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jacob-edenhofer-draft-september-2026.jacob-edenhofer98.chatgpt.site"),
+  metadataBase: new URL("https://jacob-edenhofer.github.io"),
   title: "Jacob Edenhofer",
   description: "DPhil candidate in Politics at the University of Oxford, with research interests in comparative political economy and climate politics.",
   robots: { index: false, follow: false },

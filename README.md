@@ -49,9 +49,9 @@ npm start
 
 ## Private review draft
 
-The Sites configuration in `.openai/hosting.json` hosts the static `out/` export with access restricted through the hosting service. Its site identifier is reused for future draft updates. The private draft uses its own address in `app/layout.tsx` and asks search engines not to index it. Authentication provides the access restriction.
+The existing Sites preview remains available at its previous private address. The configuration in `.openai/hosting.json` records that preview's hosting identifier. GitHub Pages is the intended destination for subsequent publication.
 
-Before a public launch, update `metadataBase` to the final public address and remove the `robots` setting from `app/layout.tsx` if the website should appear in search results.
+The website now uses `https://jacob-edenhofer.github.io` in `app/layout.tsx` for absolute metadata and social-preview image links. It retains the draft instruction asking search engines not to index it. This instruction does not restrict access; anyone with the public GitHub Pages address can open the website. Remove the `robots` setting when the website should appear in search results.
 
 ## Publish using GitHub Pages
 
