@@ -46,7 +46,7 @@ export const research: ResearchItem[] = [
     title: "The Domestic Political Economy of Net Zero",
     authors: "Jacob Edenhofer, Maurice Hirt and Federica Genovese",
     kind: "publication",
-    status: "Published",
+    status: "Forthcoming",
     venue: "Oxford Review of Economic Policy",
     year: "2026",
     programmes: ["climate"],
