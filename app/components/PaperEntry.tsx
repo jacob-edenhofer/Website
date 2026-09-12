@@ -23,7 +23,11 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
       {paper.abstract ? (
         <details className="abstract-toggle">
           <summary>Abstract</summary>
-          <p>{paper.abstract}</p>
+          <p>{paper.abstract.split(/(\*[^*]+\*)/g).map((part, index) => (
+            part.startsWith("*") && part.endsWith("*")
+              ? <em key={index}>{part.slice(1, -1)}</em>
+              : part
+          ))}</p>
         </details>
       ) : null}
     </article>

@@ -85,10 +85,10 @@ export const publicAffairsWriting: WritingItem[] = [
 
 export const reviewsAndEssays: WritingItem[] = [
   {
-    title: "Shared Prosperity in a Fractured World by Dani Rodrik",
+    title: "Shared Prosperity in a Fractured World: A New Economics for the Middle Class, the Global Poor, and Our Climate, by Dani Rodrik (Princeton University Press, Princeton, US, 2025), Pp. 280.",
     authors: "With Gabriele Gratton",
-    outlet: "Economic Record",
-    date: "5 April 2026",
+    outlet: "Economic Record 102 (338), 476–80",
+    date: "2026",
     href: "https://doi.org/10.1111/1475-4932.70046",
     description: "A review of Rodrik’s programme for the middle class, poorer countries and climate policy.",
   },
