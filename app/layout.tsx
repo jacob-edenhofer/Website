@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import { siteOrigin, sitePath } from "../site.config.mjs";
 import "./globals.css";
 
+const socialImage = {
+  url: sitePath("/og.png?v=20260913"),
+  width: 1731,
+  height: 909,
+  alt: "Jacob Edenhofer · Comparative political economy · University of Oxford. Schematic curves illustrate temporary electoral pressure and a lasting increase in climate policy stringency.",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
   title: "Jacob Edenhofer",
@@ -12,20 +19,13 @@ export const metadata: Metadata = {
     title: "Jacob Edenhofer",
     description: "Comparative political economy, climate politics, and populism · University of Oxford",
     type: "website",
-    images: [
-      {
-        url: sitePath("/og.png"),
-        width: 1200,
-        height: 630,
-        alt: "Jacob Edenhofer · Comparative political economy, climate politics, and populism · University of Oxford",
-      },
-    ],
+    images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jacob Edenhofer",
     description: "Comparative political economy, climate politics, and populism · University of Oxford",
-    images: [sitePath("/og.png")],
+    images: [socialImage],
   },
 };
 

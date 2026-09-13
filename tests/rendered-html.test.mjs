@@ -63,9 +63,24 @@ test("old publications URL retains a usable research link", () => {
   assert.ok(pages.get("/publications/").includes(`href="${sitePath("/research/#papers")}"`));
 });
 
-test("social preview images use the public repository address", () => {
+test("social preview images use the public repository address", async () => {
+  const image = await readFile(path.join(output, "og.png"));
+  assert.equal(image.subarray(0, 8).toString("hex"), "89504e470d0a1a0a", "Preview must be a PNG");
+  const width = image.readUInt32BE(16);
+  const height = image.readUInt32BE(20);
   for (const html of pages.values()) {
-    assert.ok(html.includes(`content="${siteOrigin}${sitePath("/og.png")}"`));
+    const images = [...html.matchAll(/<meta (?:property="og:image"|name="twitter:image") content="([^"]+)"/g)];
+    assert.equal(images.length, 2, "Both Open Graph and Twitter need a preview image");
+    for (const [, value] of images) {
+      const url = new URL(value.replaceAll("&amp;", "&"));
+      assert.equal(url.origin, siteOrigin);
+      assert.equal(url.pathname, sitePath("/og.png"));
+      await stat(path.join(output, url.pathname.slice(basePath.length)));
+    }
+    assert.ok(html.includes(`<meta property="og:image:width" content="${width}"`));
+    assert.ok(html.includes(`<meta property="og:image:height" content="${height}"`));
+    assert.match(html, /<meta property="og:image:alt" content="[^"]+"/);
+    assert.match(html, /<meta name="twitter:image:alt" content="[^"]+"/);
     assert.ok(!html.includes("jacob-edenhofer98.chatgpt.site"));
   }
 });
