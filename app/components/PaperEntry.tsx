@@ -6,6 +6,9 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
     paper.venue === "Draft" ? null : paper.venue,
     paper.date ?? paper.year,
   ].filter(Boolean).join(" · ");
+  const paragraphs = paper.kind === "manuscript"
+    ? paper.abstract.split(/\n\s*\n/)
+    : [paper.abstract.replace(/\s*\n\s*/g, " ")];
 
   return (
     <article className={`paper-entry${paper.abstract ? " has-abstract" : ""}`} id={paper.slug}>
@@ -23,7 +26,7 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
       {paper.abstract ? (
         <details className="abstract-toggle">
           <summary>{paper.kind === "manuscript" ? "Précis" : "Abstract"}</summary>
-          {paper.abstract.split(/\n\s*\n/).map((paragraph, paragraphIndex) => (
+          {paragraphs.map((paragraph, paragraphIndex) => (
             <p key={paragraphIndex}>{paragraph.split(/(\*[^*]+\*)/g).map((part, index) => (
               part.startsWith("*") && part.endsWith("*")
                 ? <em key={index}>{part.slice(1, -1)}</em>
