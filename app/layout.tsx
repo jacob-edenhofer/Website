@@ -3,10 +3,10 @@ import { siteOrigin, sitePath } from "../site.config.mjs";
 import "./globals.css";
 
 const socialImage = {
-  url: sitePath("/og.png?v=20260913"),
-  width: 1731,
-  height: 909,
-  alt: "Jacob Edenhofer · Comparative political economy · University of Oxford. Schematic curves illustrate temporary electoral pressure and a lasting increase in climate policy stringency.",
+  url: sitePath("/og.png?v=20260913-original"),
+  width: 1200,
+  height: 630,
+  alt: "Jacob Edenhofer · Comparative political economy · University of Oxford, with fine blue and red geometric curves on an ivory background.",
 };
 
 export const metadata: Metadata = {
