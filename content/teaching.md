@@ -2,21 +2,21 @@
 
 I teach formal political economy at Oxford and have worked as a teaching assistant at the Hertie School.
 
-Formal political economy should help students engage more deeply and critically with modern research. It should also provide a more nuanced understanding of the rationales that underlie two institutions which characterise modern democracies, elections and interest groups.
-
-Such an understanding matters for scholarship and for reflecting on the meaning of good democratic citizenship, both in private, when casting a vote, and in public, when choosing an occupation and making everyday decisions in work connected to policymaking. My hope is that the formal demands of the models never deter us from exploring their implications for lived experience.
-
 ## A Second Introduction to Formal Political Economy
 
 Oxford · Trinity Term · 2025 and 2026
 
-The course introduces canonical models of elections, party competition, electoral systems, interest groups and democratic backsliding. Each class has two parts. The first provides institutional context. The second develops one model from the readings, including proofs of its central results.
+This course has two objectives. The first is to formally introduce students to some canonical political economy models and, in doing so, to help them engage more deeply and critically with the modern literature. The second is to develop a more nuanced understanding of the strategic rationales that underlie the existence of two institutions that characterise modern democracies, elections and interest groups.
 
-Students may write a weekly essay that explains and applies the model or solve exercises of increasing difficulty. The exercise sequence moves from explaining derivations to proving results and developing small extensions.
+Such an understanding is of scholarly interest and of importance for reflecting on what it means to be a good democratic citizen, both in private, when casting a vote, and in public, when choosing an occupation and making everyday decisions in jobs that are directly and indirectly related to public policymaking. My hope is that the formal demands of the models will not deter us from exploring their implications for our lived experience.
 
-- [2026 syllabus](/A_Second_Introduction_to_Formal_Political_Economy_2026.pdf): course aims, assessment and readings
-- [2026 repository](https://github.com/jacob-edenhofer/PolEcon-Oxford2026): slides, simulations, assignments and solutions
-- [2025 archive](https://github.com/jacob-edenhofer/PolEcon-Oxford2025): materials from the previous course
+Each lecture has two parts, though these are not always presented sequentially. The first provides context on the democratic institution that the week is devoted to, or an aspect of that institution, such as accountability in elections. The second introduces one canonical political economy model from the readings, including proofs of key results. The course covers elections, party competition, electoral systems, interest groups, and democratic backsliding.
+
+Students can choose between two forms of weekly assignment. They can write an essay of 1,000 words that explains the model, situates its insights in the broader literature, and applies it to an example not discussed in the lecture. Alternatively, they can solve exercises of increasing difficulty, from explaining derivations to writing proofs and working out small extensions of the model.
+
+- [2026 syllabus](/A_Second_Introduction_to_Formal_Political_Economy_2026.pdf) — course aims, assessment, and readings
+- [2026 repository](https://github.com/jacob-edenhofer/PolEcon-Oxford2026) — slides, simulations, assignments, and solutions
+- [2025 archive](https://github.com/jacob-edenhofer/PolEcon-Oxford2025) — materials from the previous course
 
 ## Climate policy
 

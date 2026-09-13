@@ -22,12 +22,14 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
       </div>
       {paper.abstract ? (
         <details className="abstract-toggle">
-          <summary>Abstract</summary>
-          <p>{paper.abstract.split(/(\*[^*]+\*)/g).map((part, index) => (
-            part.startsWith("*") && part.endsWith("*")
-              ? <em key={index}>{part.slice(1, -1)}</em>
-              : part
-          ))}</p>
+          <summary>{paper.kind === "manuscript" ? "Précis" : "Abstract"}</summary>
+          {paper.abstract.split(/\n\s*\n/).map((paragraph, paragraphIndex) => (
+            <p key={paragraphIndex}>{paragraph.split(/(\*[^*]+\*)/g).map((part, index) => (
+              part.startsWith("*") && part.endsWith("*")
+                ? <em key={index}>{part.slice(1, -1)}</em>
+                : part
+            ))}</p>
+          ))}
         </details>
       ) : null}
     </article>

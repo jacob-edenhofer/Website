@@ -50,7 +50,7 @@ p { margin: 0 0 1.1em; }
 .hero-portrait figcaption { margin-top: 8px; color: var(--muted); font-size: .75rem; line-height: 1.5; }
 .section-heading-inline { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 18px; border-top: 1px solid var(--line); padding-top: 26px; margin-bottom: 22px; }
 .section-heading-inline h2 { font-size: 1.65rem; }
-.home-about .prose { max-width: var(--text-width); }
+.home-about .prose { max-width: var(--text-width); font-size: .9375rem; }
 .home-about { padding-bottom: 24px; }
 .site-footer { margin-top: 32px; }
 .footer-inner { border-top: 1px solid var(--line); padding-block: 25px 34px; color: var(--muted); font-size: .8125rem; }
@@ -74,6 +74,8 @@ p { margin: 0 0 1.1em; }
 .prose li { margin-block: 8px; }
 .prose blockquote { margin-left: 0; padding-left: 22px; border-left: 2px solid var(--line); }
 .prose p:last-child { margin-bottom: 0; }
+.prose .footnotes { max-width: var(--text-width); margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .8125rem; line-height: 1.6; }
+.prose .footnotes ol { margin: 0; padding-left: 1.5em; }
 .eyebrow { color: var(--muted); font-size: .8125rem; margin: 0 0 10px; }
 .text-link, .inline-links { font-size: .875rem; }
 .inline-links { display: flex; flex-wrap: wrap; gap: 8px 22px; }
