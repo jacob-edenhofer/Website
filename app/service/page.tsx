@@ -5,7 +5,7 @@ import { Markdown } from "../components/Markdown";
 
 export const metadata: Metadata = {
   title: "Professional service · Jacob Edenhofer",
-  description: "Scientific assessment, seminar organisation and peer review.",
+  description: "Scientific assessment, seminar organisation, and peer review.",
 };
 
 export default function Page() {

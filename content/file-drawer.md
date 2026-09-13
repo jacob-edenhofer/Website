@@ -12,7 +12,9 @@ While there is of course a limit to what any single individual can do, this part
 
 With Henri Gruhl, Johannes Brehm, and Lara Hankeln
 
-**Outcome:** predictions unsupported; test inconclusive
+**Outcome**
+
+The estimates did not support the predictions, and the test remained inconclusive.
 
 ### The theoretical intuition
 
@@ -30,7 +32,9 @@ The treatment involved a difficult trade-off. The change in occupational status 
 
 A stronger test would use a setting in which gendered occupational status varies naturally and matters to respondents without explicit direction from the researcher. Qualitative evidence on how affected workers understand occupational status may provide a more suitable basis for a subsequent design.
 
-**Materials:** [OSF project](https://osf.io/56juq/overview) · [Public discussion](https://threadreaderapp.com/user/edenhofer_jacob)
+**Materials**
+
+[OSF project](https://osf.io/56juq/overview) · [Public discussion](https://threadreaderapp.com/user/edenhofer_jacob)
 
 <section class="footnotes" role="doc-endnotes" aria-label="Footnotes">
 <ol>

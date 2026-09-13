@@ -44,7 +44,7 @@ export const research: ResearchItem[] = [
   {
     slug: "domestic-political-economy-net-zero",
     title: "The Domestic Political Economy of Net Zero",
-    authors: "Jacob Edenhofer, Maurice Hirt and Federica Genovese",
+    authors: "Jacob Edenhofer, Maurice Hirt, and Federica Genovese",
     kind: "publication",
     status: "Forthcoming",
     venue: "Oxford Review of Economic Policy",
@@ -58,7 +58,7 @@ export const research: ResearchItem[] = [
   {
     slug: "political-consequences-energy-price-shocks",
     title: "The Political Consequences of Energy Price Shocks: Evidence from Germany",
-    authors: "Théo Konc, Jan Christoph Steckel, Jacob Edenhofer, Jens Ewald and Thomas Sterner",
+    authors: "Théo Konc, Jan Christoph Steckel, Jacob Edenhofer, Jens Ewald, and Thomas Sterner",
     kind: "working-paper",
     status: "Working paper",
     venue: "CESifo Working Paper No. 12887",
@@ -75,7 +75,7 @@ export const research: ResearchItem[] = [
   {
     slug: "climate-institutions",
     title: "(How) Do Climate Institutions Matter? Presenting and Applying a New Framework for the Comparative Analysis of Climate Institutions",
-    authors: "Claudia Zwar, Jacob Edenhofer and Christian Flachsland",
+    authors: "Claudia Zwar, Jacob Edenhofer, and Christian Flachsland",
     kind: "revise-and-resubmit",
     status: "Third-round revise and resubmit",
     venue: "Journal of European Public Policy",
@@ -112,13 +112,13 @@ export const research: ResearchItem[] = [
     year: "2025",
     programmes: ["climate"],
     summary: "The project examines whether corporatist institutions strengthen incumbent producers or facilitate negotiated adjustment during decarbonisation.",
-    abstract: "The effect of corporatism on climate policy—which has received renewed attention as the literature on climate politics has taken an *institutional turn*—is theoretically disputed and empirically ambiguous. Given that, this paper seeks to revisit the relationship between corporatism and climate policy theoretically and empirically. Theoretically, I will defend two sets of claims. First, I argue that corporatism is, *ceteris paribus*, detrimental to stringent climate policy when the carbon-intensive industry’s economic heft is high, while the reverse holds when electoral competition from pro-climate green parties is high. Second, corporatism, I submit, has a tendency to impose a relatively greater share of costs on consumers than producers, especially when the economy is highly open. Yet, high electoral competitiveness, in particular when driven by green parties, counteracts this tendency. Empirically, I extend existing analyses and leverage newly available data to provide evidence for these hypotheses by estimating a series of fixed-effects specifications.",
+    abstract: "The effect of corporatism on climate policy—which has received renewed attention as the literature on climate politics has taken an *institutional turn*—is theoretically disputed and empirically ambiguous. Given that, this paper seeks to revisit the relationship between corporatism and climate policy theoretically and empirically. Theoretically, I will defend two sets of claims. First, I argue that corporatism is, *ceteris paribus*, detrimental to stringent climate policy when the economic importance of carbon-intensive industry is high, while the reverse holds when electoral competition from green parties advocating stringent climate policy is high. Second, corporatism, I submit, has a tendency to impose a relatively greater share of costs on consumers than producers, especially when the economy is highly open. Yet, high electoral competitiveness, in particular when driven by green parties, counteracts this tendency.\n\nEmpirically, I extend existing analyses and use newly available data to provide evidence for these hypotheses by estimating a series of fixed-effects specifications.",
     links: [{ label: "Project", href: "https://github.com/jacob-edenhofer/Research-paper-CPEAD" }],
   },
   {
     slug: "local-decline-populism",
     title: "Local Decline and Populism",
-    authors: "Thiemo Fetzer, Jacob Edenhofer and Prashant Garg",
+    authors: "Thiemo Fetzer, Jacob Edenhofer, and Prashant Garg",
     kind: "publication",
     status: "Published",
     venue: "Economics Letters 252, 112360",
@@ -136,7 +136,7 @@ export const research: ResearchItem[] = [
   {
     slug: "regional-economic-cost-brexit",
     title: "Measuring the Regional Economic Cost of Brexit: Evidence as of 2026",
-    authors: "Eleonora Alabrese, Jacob Edenhofer, Thiemo Fetzer and Shizhuo Wang",
+    authors: "Eleonora Alabrese, Jacob Edenhofer, Thiemo Fetzer, and Shizhuo Wang",
     kind: "working-paper",
     status: "Working paper",
     venue: "Warwick Economics Research Paper No. 1617",
@@ -156,7 +156,7 @@ export const research: ResearchItem[] = [
   {
     slug: "informational-boundaries-state",
     title: "Informational Boundaries of the State",
-    authors: "Thiemo Fetzer, Callum Shaw and Jacob Edenhofer",
+    authors: "Thiemo Fetzer, Callum Shaw, and Jacob Edenhofer",
     kind: "working-paper",
     status: "Working paper",
     venue: "CEPR Discussion Paper No. 18773",
@@ -186,14 +186,14 @@ export const research: ResearchItem[] = [
   {
     slug: "inflation-redistribution",
     title: "Inflation and the Preferences for Redistribution",
-    authors: "Jacob Edenhofer, Ivan Tubio Sanles and David Rueda",
+    authors: "Jacob Edenhofer, Ivan Tubio Sanles, and David Rueda",
     kind: "work-in-progress",
     status: "Work in progress",
     venue: "Draft",
     year: "2026",
     programmes: ["cpe"],
     summary: "We examine how unequal changes in purchasing power during inflation influence preferences for redistribution.",
-    abstract: "Inflation has returned to the political agenda with a vengeance and revived scholarly interest. The resulting literature has largely focused on the political and economic psychology of inflation—how people perceive and understand it—and on its electoral consequences. Valuable as this is, it overlooks how inflation affects demand for redistribution through material self-interest. Understanding this link is pressing in light of recent work documenting pronounced heterogeneity in inflation exposure across the income distribution, yet such analysis has so far been impeded by surveys that are rich in redistribution items but lack granular measures of inflation exposure. Against this backdrop, we make two contributions. Theoretically, we argue that the effect of inflation depends on the correlation between income and consumption baskets, and that its effect on demand for redistribution is largest for individuals whose positions in the present and expected future income distributions diverge. Empirically, we draw on ANES surveys merged with a distributional consumer price index and on SOEP surveys merged with a basket-specific price index, finding broad support for our theoretical predictions. Given the limitations of these observational analyses, we also outline a lab experiment to test our argument more directly.",
+    abstract: "Inflation has returned to the political agenda with a vengeance and revived scholarly interest. The resulting literature has largely focused on the political and economic psychology of inflation—how people perceive and understand it—and on its electoral consequences. Valuable as this is, it overlooks how inflation affects demand for redistribution through material self-interest. Understanding this link is pressing in light of recent work documenting pronounced heterogeneity in exposure to inflation across the income distribution, yet such analysis has so far been impeded by surveys that contain detailed questions about redistribution but lack granular measures of exposure to inflation.\n\nWe make two contributions. Theoretically, we argue that the effect of inflation depends on the correlation between income and consumption baskets, and that its effect on demand for redistribution is largest for individuals whose positions in the present and expected future income distributions diverge. Empirically, we draw on ANES surveys merged with a distributional consumer price index and on SOEP surveys merged with a price index specific to each consumption basket, finding broad support for our theoretical predictions. Given the limitations of these observational analyses, we also outline a laboratory experiment to test our argument more directly.",
     links: [],
   },
   {
@@ -219,7 +219,7 @@ export const research: ResearchItem[] = [
     year: "2026",
     programmes: ["cpe"],
     summary: "We distinguish judgements about the distribution people face from judgements about the changes imposed by a policy.",
-    abstract: "The perceived fairness of climate policy is among the strongest predictors of public support, yet the existing literature treats fairness as a property of the policy under evaluation, assessed on its own. This pre-analysis plan sets out a survey experiment testing whether fairness judgements about a new climate burden depend instead on the progressivity of the background tax-and-transfer system. The argument distinguishes two standards against which a respondent can assess fairness. Under the cumulative criterion, a household has a fair total contribution defined over all fiscal instruments, and a new policy is fair to the extent that it moves the household towards that total. Under the marginal contribution criterion, each policy is assessed on the distribution of costs within it, and a progressive background may raise the progressivity expected of any new policy. The two criteria yield opposite predictions, and the design estimates their relative importance rather than presuming either. A 2 × 2 factorial separates the cumulative contribution record from the progressive structure in force by exploiting the timing of a concluded levy and a recently adopted reform. The instrument elicits fairness benchmarks twice, once over fair totals and once over the division of a new burden, randomises whether a respondent judges as an impartial spectator or as a stakeholder with an assigned income position, and evaluates policy packages that hold totals fixed while varying the targeting of revenue recycling. We do not assume that fair totals stay fixed since the equilibrium relationship between institutions and beliefs gives a clear reason to expect them to move.",
+    abstract: "The perceived fairness of climate policy is among the strongest predictors of public support, yet the existing literature treats fairness as a property of the policy under evaluation, assessed in isolation. This pre-analysis plan describes a survey experiment testing whether judgements about the fairness of a new burden imposed by climate policy depend instead on the progressivity of the existing system of taxes and transfers. The argument distinguishes two standards against which a respondent can assess fairness. Under the cumulative criterion, a household has a fair total contribution defined over all fiscal instruments, and a new policy is fair to the extent that it moves the household towards that total. Under the marginal contribution criterion, each policy is assessed on the distribution of costs within it, and a progressive system may raise the progressivity expected of any new policy.\n\nThe two criteria yield opposite predictions. The design estimates their relative importance without presuming which criterion respondents adopt. A 2 × 2 factorial separates the history of cumulative contributions from the progressive structure in force by exploiting the timing of a concluded levy and a recently adopted reform.\n\nThe instrument elicits fairness benchmarks twice, once over fair totals and once over the division of a new burden, randomises whether a respondent judges as an impartial spectator or as a stakeholder with an assigned income position, and evaluates policy packages that hold totals constant while varying the targeting of revenue recycling. We do not assume that fair totals remain constant since the equilibrium relationship between institutions and beliefs gives a clear reason to expect them to move.",
     links: [],
   },
   {

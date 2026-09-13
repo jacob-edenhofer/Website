@@ -5,7 +5,7 @@ import { PublicationViews } from "../components/PublicationViews";
 
 export const metadata: Metadata = {
   title: "Research · Jacob Edenhofer",
-  description: "Research, a DPhil manuscript and book reviews in comparative political economy, climate politics, populism and liberal democracy.",
+  description: "Research, a DPhil manuscript, and book reviews in comparative political economy, climate politics, populism, and liberal democracy.",
 };
 
 export default function ResearchPage() {

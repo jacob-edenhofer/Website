@@ -10,21 +10,21 @@ export const metadata: Metadata = {
   icons: { icon: sitePath("/favicon.svg"), shortcut: sitePath("/favicon.svg") },
   openGraph: {
     title: "Jacob Edenhofer",
-    description: "Comparative political economy, climate politics and populism · University of Oxford",
+    description: "Comparative political economy, climate politics, and populism · University of Oxford",
     type: "website",
     images: [
       {
         url: sitePath("/og.png"),
         width: 1200,
         height: 630,
-        alt: "Jacob Edenhofer · Comparative political economy, climate politics and populism · University of Oxford",
+        alt: "Jacob Edenhofer · Comparative political economy, climate politics, and populism · University of Oxford",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jacob Edenhofer",
-    description: "Comparative political economy, climate politics and populism · University of Oxford",
+    description: "Comparative political economy, climate politics, and populism · University of Oxford",
     images: [sitePath("/og.png")],
   },
 };

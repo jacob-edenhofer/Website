@@ -12,7 +12,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Popular writing and engagement · Jacob Edenhofer",
-  description: "Essays, research summaries, public discussions and notes on climate policy, political economy and liberal democracy.",
+  description: "Essays, research summaries, public discussions, and notes on climate policy, political economy, and liberal democracy.",
 };
 
 function WritingEntry({ item }: { item: WritingItem }) {
@@ -32,19 +32,19 @@ const sections = [
   {
     id: "essays-reviews",
     title: "Essays and reviews",
-    intro: "Longer pieces on climate policy, economic policy and democratic government.",
+    intro: "These essays examine climate policy, economic policy, and democratic government.",
     items: [...reviewsAndEssays, ...publicAffairsWriting],
   },
   {
     id: "research-summaries",
     title: "Research summaries",
-    intro: "Accounts of published papers and working papers for readers beyond the immediate academic literature.",
+    intro: "These summaries introduce published papers and working papers to readers beyond the immediate academic literature.",
     items: researchCommentary,
   },
   {
     id: "public-engagement",
     title: "Public engagement",
-    intro: "Public discussions, presentations and tentative notes on expertise, democratic authority and populism.",
+    intro: "These discussions, presentations, and tentative notes examine expertise, democratic authority, and populism.",
     items: democracyAndAdvice,
   },
 ];

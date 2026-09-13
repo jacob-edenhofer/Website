@@ -36,13 +36,13 @@ const themes = [
   {
     id: "theme-climate",
     title: "Climate Politics",
-    description: "My DPhil manuscript and related papers examine uncertain public support, economic adjustment, compensation and the institutions of decarbonisation.",
+    description: "My DPhil manuscript and related papers examine uncertain public support, economic adjustment, compensation, and the institutions of decarbonisation.",
     papers: researchByProgramme.climate,
   },
   {
     id: "theme-populism",
     title: "Populism",
-    description: "These papers examine how local decline, sudden economic losses and the regional consequences of Brexit influence support for populist parties.",
+    description: "These papers examine how local decline, sudden economic losses, and the regional consequences of Brexit influence support for populist parties.",
     papers: researchByProgramme.populism,
   },
   {
@@ -54,13 +54,13 @@ const themes = [
   {
     id: "theme-cpe",
     title: "Other comparative political economy",
-    description: "These projects examine taxation, inflation, redistribution and the allocation of benefits across voters.",
+    description: "These projects examine taxation, inflation, redistribution, and the allocation of benefits across voters.",
     papers: researchByProgramme.cpe,
   },
   {
     id: "theme-democracy",
     title: "Liberal democracy and its tensions",
-    description: "This work examines the relation between majority rule, expert authority and institutional constraint, with particular attention to delegation and democratic accountability.",
+    description: "This work examines the relation between majority rule, technocracy, and institutional constraint, with particular attention to delegation and democratic accountability.",
     papers: researchByProgramme.democracy,
   },
 ];

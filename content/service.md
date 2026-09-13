@@ -1,6 +1,6 @@
 # Professional service
 
-I contribute to shared academic work through scientific assessment, seminar organisation and peer review.
+I contribute to shared academic work through scientific assessment, seminar organisation, and peer review.
 
 ## IPCC Seventh Assessment Report
 

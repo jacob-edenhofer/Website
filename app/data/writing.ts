@@ -38,7 +38,7 @@ export const researchCommentary: WritingItem[] = [
   },
   {
     title: "From Local to National: Austerity, Immigration and Support for UKIP",
-    authors: "With Eleonora Alabrese, Thiemo Fetzer and Shizhuo Wang",
+    authors: "With Eleonora Alabrese, Thiemo Fetzer, and Shizhuo Wang",
     outlet: "UK in a Changing Europe",
     date: "5 November 2024",
     href: "https://ukandeu.ac.uk/from-local-to-national-austerity-immigration-and-support-for-ukip/",
@@ -52,7 +52,7 @@ export const researchCommentary: WritingItem[] = [
   },
   {
     title: "Levelling up by Levelling down? The Economic and Political Costs of Brexit",
-    authors: "With Eleonora Alabrese, Thiemo Fetzer and Shizhuo Wang",
+    authors: "With Eleonora Alabrese, Thiemo Fetzer, and Shizhuo Wang",
     outlet: "UK in a Changing Europe",
     date: "6 September 2024",
     href: "https://ukandeu.ac.uk/levelling-up-by-levelling-down-the-economic-and-political-costs-of-brexit/",
@@ -69,7 +69,7 @@ export const publicAffairsWriting: WritingItem[] = [
   },
   {
     title: "Chancen der Klimapolitik in Zeiten geopolitischer Spannungen",
-    authors: "With Ottmar Edenhofer, Matthias Kalkuhl and Cecilia Kilimann",
+    authors: "With Ottmar Edenhofer, Matthias Kalkuhl, and Cecilia Kilimann",
     outlet: "Amos international",
     date: "2023",
     href: "https://www.amosinternational.de/user/pages/02.magazine/issue-2023-4/amos_23-4S27-16%20O.Edenhofer%2C%20J.%20Edenhofer%2C%20Kalkuhl%20u.%20Killimann.pdf?g-08381e3e=",
@@ -90,7 +90,7 @@ export const reviewsAndEssays: WritingItem[] = [
     outlet: "Economic Record 102 (338), 476–80",
     date: "2026",
     href: "https://doi.org/10.1111/1475-4932.70046",
-    description: "A review of Rodrik’s programme for the middle class, poorer countries and climate policy.",
+    description: "We review Rodrik’s programme for the middle class, poorer countries, and climate policy.",
   },
   {
     title: "From Quiet to Noisy Politics: An Excellent Book on Corporate Power in Democracies",
@@ -98,7 +98,7 @@ export const reviewsAndEssays: WritingItem[] = [
     outlet: "Amazon review",
     date: "24 March 2026",
     href: "https://www.amazon.co.uk/Billionaire-Backlash-Corporate-Scandal-Democracy/dp/1399424149#customerReviews",
-    description: "A review of Pepper Culpepper and Taeku Lee’s ‘Billionaire Backlash’.",
+    description: "I review Pepper Culpepper and Taeku Lee’s ‘Billionaire Backlash’.",
   },
 ];
 
@@ -113,11 +113,11 @@ export const democracyAndAdvice: WritingItem[] = [
   },
   {
     title: "60 Minuten: (Rechts-)Populismus: Altes Problem, junge Stimmen",
-    authors: "With Christian Leßmann, Luisa Dörr and Julius Kölzer",
+    authors: "With Christian Leßmann, Luisa Dörr, and Julius Kölzer",
     outlet: "ifo Institute and TU Dresden",
     date: "13 January 2026",
     href: "https://youtu.be/fkkVFYv_cL8?si=CxY9xmO0l2f9PR-f",
-    description: "A public discussion of the sources of support for populist parties in Germany and elsewhere in Europe.",
+    description: "We discuss the sources of support for populist parties in Germany and elsewhere in Europe.",
   },
   {
     title: "Towards a more nuanced understanding of right-wing populism",

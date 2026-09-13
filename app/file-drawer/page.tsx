@@ -5,7 +5,7 @@ import { Markdown } from "../components/Markdown";
 
 export const metadata: Metadata = {
   title: "The file drawer · Jacob Edenhofer",
-  description: "Informative empirical projects, research designs and theoretical ideas that produced reasons to stop.",
+  description: "Informative empirical projects, research designs, and theoretical ideas that produced reasons to stop.",
 };
 
 export default function Page() {

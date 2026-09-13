@@ -1,1 +1,1 @@
-I write essays, research summaries and tentative notes on climate policy, comparative political economy and liberal democracy. This page also collects public discussions and presentations and links to my Substack and public threads.
+I write essays, research summaries, and tentative notes on climate policy, comparative political economy, and liberal democracy. This page also collects public discussions and presentations, with links to my Substack and public threads.
