@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
-import { Markdown } from "../components/Markdown";
+import { Markdown, MarkdownParagraph } from "../components/Markdown";
 import {
   democracyAndAdvice,
   publicAffairsWriting,
@@ -21,7 +21,7 @@ function WritingEntry({ item }: { item: WritingItem }) {
       <div>
         <h3><a href={item.href}>{item.title}</a></h3>
         <p>{item.authors}</p>
-        {item.description ? <p className="writing-description">{item.description}</p> : null}
+        {item.description ? <MarkdownParagraph className="writing-description" text={item.description} /> : null}
       </div>
       <p className="writing-meta">{item.outlet} · {item.date}</p>
     </article>

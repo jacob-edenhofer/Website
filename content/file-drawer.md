@@ -10,7 +10,7 @@ While there is of course a limit to what any single individual can do, this part
 
 2025–26 · Survey experiment
 
-With Henri Gruhl, Johannes Brehm, and Lara Hankeln
+With [Henri Gruhl](https://www.henrigruhl.com/) (RWI – Leibniz Institute for Economic Research and Vrije Universiteit Amsterdam), [Johannes Brehm](https://sites.google.com/view/johannesbrehm/home) (RWI – Leibniz Institute for Economic Research and Hertie School), and [Lara Hankeln](https://www.politics.ox.ac.uk/person/lara-hankeln) (University of Oxford)
 
 **Outcome**
 

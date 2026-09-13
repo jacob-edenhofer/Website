@@ -20,4 +20,4 @@ Students can choose between two forms of weekly assignment. They can write an es
 
 ## Climate policy
 
-At the Hertie School, I worked as a teaching assistant for Christian Flachsland on *Advanced Climate Policy* and *Policy Process — Climate Policy*. I made a substantial contribution to preparing and revising the lecture slides.
+I worked as a teaching assistant for [Christian Flachsland](https://www.hertie-school.org/en/who-we-are/profile/person/flachsland) (Hertie School) on *Advanced Climate Policy* and *Policy Process — Climate Policy*. I made a substantial contribution to preparing and revising the lecture slides.

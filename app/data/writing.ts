@@ -109,7 +109,7 @@ export const democracyAndAdvice: WritingItem[] = [
     outlet: "Brandenburg state parliament, Potsdam",
     date: "8 July 2026",
     href: "https://mwfk.brandenburg.de/sixcms/media.php/9/05_ProfOttmarEdenhofer_Politikberatung_PowerPointVortrag.pdf",
-    description: "We prepared these slides for Ottmar Edenhofer’s keynote at ‘Resilienz des deutschen Wissenschaftssystems – Verantwortung gemeinsam übernehmen’, a conference on the resilience of Germany’s science system.",
+    description: "We prepared these slides for the keynote given by [Ottmar Edenhofer](https://www.pik-potsdam.de/members/edenh) (Potsdam Institute for Climate Impact Research and TU Berlin) at ‘Resilienz des deutschen Wissenschaftssystems – Verantwortung gemeinsam übernehmen’, a conference on the resilience of Germany’s science system.",
   },
   {
     title: "60 Minuten: (Rechts-)Populismus: Altes Problem, junge Stimmen",

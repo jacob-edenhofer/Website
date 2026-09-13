@@ -4,7 +4,7 @@ I contribute to shared academic work through scientific assessment, seminar orga
 
 ## IPCC Seventh Assessment Report
 
-As a Contributing Author to the Intergovernmental Panel on Climate Change’s Seventh Assessment Report, I work with Christian Flachsland and Alice Xu on the political economy section of the governance chapter.
+As a Contributing Author to the Intergovernmental Panel on Climate Change’s Seventh Assessment Report, I work with [Christian Flachsland](https://www.hertie-school.org/en/who-we-are/profile/person/flachsland) (Hertie School) and [Alice Xu](https://www.alicezxu.com/) (University of Pennsylvania) on the political economy section of the governance chapter.
 
 ## Nuffield Comparative Political Economy Seminar
 
