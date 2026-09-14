@@ -1,7 +1,5 @@
 # Teaching
 
-I teach formal political economy at Oxford and have worked as a teaching assistant at the Hertie School.
-
 ## A Second Introduction to Formal Political Economy
 
 Oxford · Trinity Term · 2025 and 2026
