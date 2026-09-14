@@ -13,7 +13,7 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
   return (
     <article className={`paper-entry${paper.abstract ? " has-abstract" : ""}`} id={paper.slug}>
       <div className="paper-main">
-        <h3>{paper.kind === "manuscript" ? <strong>{paper.title}</strong> : paper.title}</h3>
+        <h3>{paper.title}</h3>
         {paper.subtitle && <p className="dphil-subtitle"><em>{paper.subtitle}</em></p>}
         <p className="paper-authors">{paper.authors}</p>
         <p className="paper-meta">{metadata}</p>
