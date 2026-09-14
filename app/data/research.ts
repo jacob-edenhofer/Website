@@ -136,6 +136,7 @@ export const research: ResearchItem[] = [
       { label: "Paper", href: "https://doi.org/10.1016/j.econlet.2025.112360" },
       { label: "VoxEU", href: "https://cepr.org/voxeu/columns/local-decline-and-populism" },
       { label: "FAZ", href: "https://zeitung.faz.net/faz/wirtschaft/2025-04-07/naehrboden-fuer-populisten/1151252.html#verschenken" },
+      { label: "FAZ — ‘Bald schrumpft die Menschheit’", href: "https://www.faz.net/aktuell/wirtschaft/geburtenraten-und-bevoelkerungsprognosen-bald-schrumpft-die-menschheit-110535133.html" },
     ],
   },
   {
