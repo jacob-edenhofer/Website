@@ -181,7 +181,13 @@ summary { color: var(--blue); cursor: pointer; font-size: .875rem; width: fit-co
   .hero-portrait img { width: 112px; height: 140px; }
   .hero-portrait figcaption { max-width: 140px; }
   .footer-links { gap: 5px 18px; }
-  .grouping-control select { font-size: 1rem; }
+  .grouping-control select { font-size: 1rem; min-height: 44px; }
+  .abstract-toggle > summary { min-height: 44px; padding-block: 10px; }
+  .hero-academic a, .hero-social a, .footer-links a, .paper-links a,
+  .paper-index a, .programme-index a, .inline-links a, .text-link {
+    display: inline-flex; align-items: center; min-height: 44px;
+  }
+  .prose .footnotes { font-size: .875rem; line-height: 1.7; }
   .section-heading-inline { align-items: flex-start; }
 }
 @media (pointer: coarse) {
