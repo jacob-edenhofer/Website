@@ -47,7 +47,7 @@ test("homepage reflects the requested introduction and navigation", () => {
   const html = pages.get("/");
   assert.match(html, /About me/);
   const about = html.match(/<section[^>]*class="home-about[^>]*>[\s\S]*?<\/section>/)?.[0] || "";
-  assert.equal((about.match(/<p>/g) || []).length, 4);
+  assert.equal((about.match(/<p>/g) || []).length, 3);
   assert.ok(!html.includes("Selected research"));
   const header = html.match(/<header\b[^>]*>[\s\S]*?<\/header>/)?.[0] || "";
   const main = html.match(/<main\b[^>]*>[\s\S]*?<\/main>/)?.[0] || "";
