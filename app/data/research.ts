@@ -254,6 +254,8 @@ export const research: ResearchItem[] = [
     links: [
       { label: "Paper", href: "https://doi.org/10.1080/13501763.2025.2576160" },
       { label: "ProMarket", href: "https://www.promarket.org/2025/05/14/behind-populists-anti-technocratic-fervor-and-its-consequences-for-liberal-democracy/" },
+      { label: "The Argument", href: "https://www.theargumentmag.com/p/the-price-of-expertise" },
+      { label: "Podcast with Gabriele Gratton", href: "https://www.theargumentmag.com/p/how-liberal-elite-failure-fueled" },
       { label: "Summary thread", href: "https://threadreaderapp.com/thread/1990822736554307921.html" },
       { label: "Longer thread (working paper)", href: "https://threadreaderapp.com/thread/1886335627974651908.html" },
     ],
