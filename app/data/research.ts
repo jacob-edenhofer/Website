@@ -186,7 +186,7 @@ export const research: ResearchItem[] = [
   {
     slug: "inflation-redistribution",
     title: "Inflation and the Preferences for Redistribution",
-    authors: "Jacob Edenhofer, Ivan Tubio Sanles, and David Rueda",
+    authors: "Jacob Edenhofer, Iván Tubio Sanles, and David Rueda",
     kind: "work-in-progress",
     status: "Work in progress",
     venue: "Draft",
