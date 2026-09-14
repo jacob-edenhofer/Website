@@ -60,7 +60,7 @@ const themes = [
   {
     id: "theme-democracy",
     title: "Liberal democracy and its tensions",
-    description: "This work examines the relation between majority rule, technocracy, and institutional constraint, with particular attention to delegation and democratic accountability.",
+    description: "This work examines why majorities delegate policymaking to technocrats when they fear losing power and expect technocrats to preserve their preferred policies. It analyses when these arrangements give way to repeated shifts between technocratic and majoritarian government, and how such shifts can increase the risk of democratic backsliding.",
     papers: researchByProgramme.democracy,
   },
 ];
