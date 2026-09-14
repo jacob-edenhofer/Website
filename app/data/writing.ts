@@ -120,12 +120,28 @@ export const democracyAndAdvice: WritingItem[] = [
     description: "We discuss the sources of support for populist parties in Germany and elsewhere in Europe.",
   },
   {
+    title: "“Social acceptability” via deservingness: Promising avenue or cul-de-sac?",
+    authors: "Jacob Edenhofer",
+    outlet: "Ariadne@Brussels",
+    date: "9 December 2025",
+    href: "/Brussels_Compensation_Presentation_2025.pdf",
+    description: "Presentation at the Ariadne workshop [“EU Climate and Energy Policy in a Polarising World”](https://ariadneprojekt.de/en/events-en/ariadnebrussels-2025-insights/).",
+  },
+  {
     title: "Towards a more nuanced understanding of right-wing populism",
     authors: "Jacob Edenhofer",
     outlet: "Friedrich Naumann Foundation, Europe Workshop",
     date: "25 November 2025",
     href: "https://www.dropbox.com/scl/fi/v3nes994lb0ml0pwwu6xs/RWP_Naumann_Stiftung_EdenhoferNov2025_long.pdf?rlkey=d9e5dvibsc0fif4d3kd1809j6&st=gdul11fl&dl=0",
     description: "Across 85 slides, I offer a synthesis and my interpretation of the literature on the causes and consequences of right-wing populism and assess potential countermeasures.",
+  },
+  {
+    title: "Does fairness matter for the political efficacy of compensation?",
+    authors: "Jacob Edenhofer",
+    outlet: "Ariadne@Brussels",
+    date: "10 December 2024",
+    href: "/Brussels_Compensation_Presentation_2024.pdf",
+    description: "Discussion of Gruhl et al. at the Ariadne workshop [“Staying the Course in Turbulent Times”](https://ariadneprojekt.de/en/events-en/staying-the-course-in-turbulent-times/).",
   },
 ];
 

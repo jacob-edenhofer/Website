@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { sitePath } from "../../site.config.mjs";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Markdown, MarkdownParagraph } from "../components/Markdown";
@@ -19,7 +20,7 @@ function WritingEntry({ item }: { item: WritingItem }) {
   return (
     <article className="writing-entry">
       <div>
-        <h3><a href={item.href}>{item.title}</a></h3>
+        <h3><a href={sitePath(item.href)}>{item.title}</a></h3>
         <p>{item.authors}</p>
         {item.description ? <MarkdownParagraph className="writing-description" text={item.description} /> : null}
       </div>
@@ -44,7 +45,7 @@ const sections = [
   {
     id: "public-engagement",
     title: "Public engagement",
-    intro: "These discussions, presentations, and tentative notes examine expertise, democratic authority, and populism.",
+    intro: "These discussions, presentations, and tentative notes examine climate policy, expertise, democratic authority, and populism.",
     items: democracyAndAdvice,
   },
 ];
