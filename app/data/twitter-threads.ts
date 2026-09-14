@@ -160,7 +160,7 @@ export const threadGroups: ThreadGroup[] = [
   },
   {
     "id": "democracy",
-    "title": "Democracy and technocracy",
+    "title": "Liberal democracy and its tensions",
     "items": [
       {
         "id": "2007131571204001963",

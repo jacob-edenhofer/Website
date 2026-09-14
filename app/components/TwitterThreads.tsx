@@ -19,10 +19,11 @@ export function TwitterThreads() {
           <details className="thread-theme" key={group.id} id={`threads-${group.id}`}>
             <summary>
               <h3>
-                <span>{group.title}</span>
+                <span className="thread-theme-title">{group.title}</span>
                 <span className="thread-count">{group.items.length} threads</span>
-                <svg className="thread-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
-                  <path d="m6 9 6 6 6-6" />
+                <svg className="thread-disclosure-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" aria-hidden="true" focusable="false">
+                  <path d="M5 12h14" />
+                  <path className="thread-disclosure-vertical" d="M12 5v14" />
                 </svg>
               </h3>
             </summary>
