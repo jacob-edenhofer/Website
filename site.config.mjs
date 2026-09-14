@@ -1,4 +1,4 @@
-export const basePath = "/Website";
+export const basePath = "";
 export const siteOrigin = "https://jacob-edenhofer.github.io";
 
 /** Add the repository path to local assets and ordinary HTML links. */

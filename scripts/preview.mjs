@@ -12,7 +12,7 @@ createServer(async (request, response) => {
   if (!["GET", "HEAD"].includes(request.method)) { response.writeHead(405, { Allow: "GET, HEAD" }); response.end(); return; }
   try {
     const pathname = decodeURIComponent(new URL(request.url, "http://localhost").pathname);
-    if (pathname === "/" || pathname === basePath) {
+    if (basePath && (pathname === "/" || pathname === basePath)) {
       response.writeHead(302, { Location: `${basePath}/` }); response.end(); return;
     }
     if (!pathname.startsWith(`${basePath}/`)) throw new Error("Path outside website");

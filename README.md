@@ -45,25 +45,27 @@ npm test
 npm start
 ```
 
-`npm test` builds the website and checks its exported pages, links and assets. `npm start` previews that static build at `http://127.0.0.1:4173/Website/`. Rebuild after edits before previewing with `npm start`. The generated `out/` folder is the publishable website; edit the source files rather than `out/`.
+`npm test` builds the website and checks its exported pages, links, assets, and compatibility with previously shared addresses. `npm start` previews that static build at `http://127.0.0.1:4173/`. Rebuild after edits before previewing with `npm start`. The generated `out/` folder is the publishable website; edit the source files rather than `out/`.
 
 ## Private review draft
 
 The existing Sites preview remains available at its previous private address. The configuration in `.openai/hosting.json` records that preview's hosting identifier. GitHub Pages is the intended destination for subsequent publication.
 
-The website uses `https://jacob-edenhofer.github.io/Website/`, configured in `site.config.mjs`, for local links, assets, and social-preview images. It retains the draft instruction asking search engines not to index it. This instruction does not restrict access; anyone with the public GitHub Pages address can open the website. Remove the `robots` setting in `app/layout.tsx` when the website should appear in search results.
+The website uses `https://jacob-edenhofer.github.io/`, configured in `site.config.mjs`, for local links, assets, and social-preview images. It retains the draft instruction asking search engines not to index it. This instruction does not restrict access; anyone with the public GitHub Pages address can open the website. Remove the `robots` setting in `app/layout.tsx` when the website should appear in search results.
 
 ## Publish using GitHub Pages
 
-The public repository is [jacob-edenhofer/Website](https://github.com/jacob-edenhofer/Website). The workflow in `.github/workflows/pages.yml` builds, checks, and publishes changes pushed to `main`.
+The public repository is [jacob-edenhofer/jacob-edenhofer.github.io](https://github.com/jacob-edenhofer/jacob-edenhofer.github.io). It was renamed from `Website` to use GitHub Pages' free address for a personal website. The workflow in `.github/workflows/pages.yml` builds, checks, and publishes changes pushed to `main`.
 
-1. Use the existing `Website` repository under the `jacob-edenhofer` account.
+1. Use the existing `jacob-edenhofer.github.io` repository under the `jacob-edenhofer` account.
 2. Put this folder’s contents at the repository root, including `.github`. Do not upload the parent `Random_thoughts` folder or the backup folder. Keep `node_modules`, `.next`, `out` and `.sites-runtime` out of Git; `.gitignore` already covers these.
 3. In the repository’s **Settings → Pages**, choose **GitHub Actions** as the source.
 4. Push to `main`, or select **Actions → Publish website → Run workflow**. The workflow builds, tests and publishes the static output.
-5. Check the successful deployment and open `https://jacob-edenhofer.github.io/Website/`.
+5. Check the successful deployment and open `https://jacob-edenhofer.github.io/`.
 
-The repository name is case-sensitive in the website address. `site.config.mjs` defines `/Website` as the shared base path for Next.js navigation, Markdown links, images, PDFs, the static preview, and the checks. Update that configuration and rebuild if the repository name changes.
+The repository must retain the exact name `jacob-edenhofer.github.io` for this root address to work. `site.config.mjs` defines an empty base path for Next.js navigation, Markdown links, images, PDFs, the static preview, and the checks. The local folder can retain its existing name.
+
+Every build runs `scripts/legacy-paths.mjs` to preserve the previous `/Website/` addresses. Old page links redirect to the corresponding page at the root, retaining query strings and fragments such as paper and footnote links. Old PDF and image addresses serve identical copies of the current files in `public/`. Updating a CV or presentation therefore updates both addresses automatically. Keep this build step when editing the deployment. Do not create another GitHub Pages project named `Website`, which could conflict with these compatibility paths.
 
 For a custom domain, configure and verify it in GitHub Pages and update the domain’s DNS records. Update the origin and base path in `site.config.mjs` to match the final address before rebuilding.
 

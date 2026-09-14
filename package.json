@@ -8,9 +8,9 @@
   "scripts": {
     "install:ci": "npm ci",
     "dev": "next dev --webpack --hostname 127.0.0.1",
-    "build": "next build --webpack",
+    "build": "next build --webpack && node scripts/legacy-paths.mjs",
     "start": "node scripts/preview.mjs",
-    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs",
     "lint": "eslint app next.config.ts",
     "db:generate": "bash scripts/sites-env.sh -- drizzle-kit generate"
   },
