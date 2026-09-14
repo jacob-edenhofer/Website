@@ -87,6 +87,8 @@ export const research: ResearchItem[] = [
       { label: "Paper", href: "https://osf.io/preprints/socarxiv/jf8ah_v2/" },
       { label: "Ariadne report (2023)", href: "https://ariadneprojekt.de/en/publication/report-mapping-variation-in-institutions-for-climate-policymaking/" },
       { label: "Verfassungsblog", href: "https://verfassungsblog.de/german-federal-climate-protection-act/" },
+      { label: "Summary thread (Claudia Zwar)", href: "https://threadreaderapp.com/thread/1830612008401825845.html" },
+      { label: "Thread on the Ariadne report (German)", href: "https://threadreaderapp.com/thread/1722216966608523757.html" },
     ],
   },
   {
@@ -100,7 +102,10 @@ export const research: ResearchItem[] = [
     programmes: ["climate"],
     summary: "The Climate Politics Framework provides a common structure for analysing climate policymaking and is illustrated through the German experience.",
     abstract: "This paper introduces the Climate Politics Framework (CPF), a novel and comprehensive approach to analysing climate policymaking. The CPF sets out four fundamental problems—pervasive collective action challenges, distributional dynamics, long-term policy, and deep uncertainty—that shape both elite and mass-level climate politics. These, in turn, influence the stringency and design of climate policy platforms, which consist of institutions, policy instruments, as well as framing and rhetoric. These platforms can both cause emissions reductions—the main dependent variable of interest—and address strategic challenges in the climate policy process (e.g. agenda-setting, coordination, compensation, and commitment), thereby altering political dynamics over time. Applying the CPF to Germany, based on elite interviews and a literature review, we analyse key episodes and structural features of German climate policy over the past four decades. The CPF offers both an academic contribution—by synthesising disparate strands of the climate politics literature—and, with a view to future applications, a practical tool for policymakers and stakeholders to diagnose political barriers and identify pathways for effective climate policymaking.",
-    links: [{ label: "Paper", href: "https://doi.org/10.31235/osf.io/qkbj3_v1" }],
+    links: [
+      { label: "Paper", href: "https://doi.org/10.31235/osf.io/qkbj3_v1" },
+      { label: "Summary thread", href: "https://threadreaderapp.com/thread/1939770607953989817.html" },
+    ],
   },
   {
     slug: "corporatism-dirty-clean",
@@ -249,6 +254,8 @@ export const research: ResearchItem[] = [
     links: [
       { label: "Paper", href: "https://doi.org/10.1080/13501763.2025.2576160" },
       { label: "ProMarket", href: "https://www.promarket.org/2025/05/14/behind-populists-anti-technocratic-fervor-and-its-consequences-for-liberal-democracy/" },
+      { label: "Summary thread", href: "https://threadreaderapp.com/thread/1990822736554307921.html" },
+      { label: "Longer thread (working paper)", href: "https://threadreaderapp.com/thread/1886335627974651908.html" },
     ],
   },
 

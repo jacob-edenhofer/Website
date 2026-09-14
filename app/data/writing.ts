@@ -5,6 +5,7 @@ export type WritingItem = {
   date: string;
   href: string;
   description?: string;
+  links?: Array<{ label: string; href: string }>;
 };
 
 export const researchCommentary: WritingItem[] = [
@@ -73,6 +74,9 @@ export const publicAffairsWriting: WritingItem[] = [
     outlet: "Amos international",
     date: "2023",
     href: "https://www.amosinternational.de/user/pages/02.magazine/issue-2023-4/amos_23-4S27-16%20O.Edenhofer%2C%20J.%20Edenhofer%2C%20Kalkuhl%20u.%20Killimann.pdf?g-08381e3e=",
+    links: [
+      { label: "Summary thread (English)", href: "https://threadreaderapp.com/thread/1760635907995017502.html" },
+    ],
   },
   {
     title: "Die Welt retten geht nur demokratisch",

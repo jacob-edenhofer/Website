@@ -42,7 +42,7 @@ A stronger test would use a setting in which gendered occupational status varies
 
 **Materials**
 
-[OSF project](https://osf.io/56juq/overview) · [Public discussion](https://threadreaderapp.com/user/edenhofer_jacob)
+[OSF project](https://osf.io/56juq/overview) · [Thread on the pre-analysis plan](https://threadreaderapp.com/thread/2000944001806168354.html) · [Thread on the results](https://threadreaderapp.com/thread/2085095990592188549.html)
 
 <section class="footnotes" role="doc-endnotes" aria-label="Footnotes">
 <ol>

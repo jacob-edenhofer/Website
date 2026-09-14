@@ -26,6 +26,11 @@ function WritingEntry({ item }: { item: WritingItem }) {
         {item.description ? <MarkdownParagraph className="writing-description" text={item.description} /> : null}
       </div>
       <p className="writing-meta">{item.outlet} · {item.date}</p>
+      {item.links?.length ? (
+        <div className="paper-links">
+          {item.links.map((link) => <a href={sitePath(link.href)} key={link.label}>{link.label}</a>)}
+        </div>
+      ) : null}
     </article>
   );
 }
