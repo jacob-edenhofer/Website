@@ -54,7 +54,7 @@ const themes = [
   {
     id: "theme-cpe",
     title: "Other comparative political economy",
-    description: "These projects examine taxation, inflation, redistribution, and the allocation of benefits across voters.",
+    description: "These projects examine how inflation affects demand for redistribution, how existing taxes and transfers influence the perceived fairness of climate policy, and when parties protect their core voters.",
     papers: researchByProgramme.cpe,
   },
   {
