@@ -41,8 +41,9 @@ p { margin: 0 0 1.1em; }
 .hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) 164px; gap: 76px; max-width: var(--text-width); align-items: start; }
 .hero-role { margin: 14px 0 0; font-size: .9375rem; color: var(--muted); }
 .hero-contact { margin-top: 28px; font-size: .9375rem; font-style: normal; overflow-wrap: anywhere; }
-.hero-social { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 12px; font-size: .875rem; }
-.hero-social a { padding-block: 4px; }
+.hero-academic, .hero-social { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 12px; font-size: .875rem; }
+.hero-social { margin-top: 8px; }
+.hero-academic a, .hero-social a { padding-block: 4px; }
 .hero-intro { margin-top: 24px; font-size: 1.0625rem; line-height: 1.75; }
 .hero-intro p:last-child { margin-bottom: 0; }
 .hero-portrait { margin: 4px 0 0; }
@@ -52,6 +53,11 @@ p { margin: 0 0 1.1em; }
 .section-heading-inline h2 { font-size: 1.65rem; }
 .home-about .prose { max-width: var(--text-width); font-size: .9375rem; }
 .home-about { padding-bottom: 24px; }
+.recent-publications > .section-heading-inline, .recent-publications > .paper-entry { max-width: var(--text-width); }
+.recent-publications > .section-heading-inline { margin-bottom: 0; }
+.recent-publications .paper-entry:last-child { border-bottom: 0; }
+.recent-publications h3 a { color: var(--ink); text-decoration: none; }
+.recent-publications h3 a:hover { color: var(--blue); text-decoration: underline; }
 .site-footer { margin-top: 32px; }
 .footer-inner { border-top: 1px solid var(--line); padding-block: 25px 34px; color: var(--muted); font-size: .8125rem; }
 .footer-inner p { margin: 0; }
@@ -132,7 +138,7 @@ summary { color: var(--blue); cursor: pointer; font-size: .875rem; width: fit-co
   .section-heading-inline { align-items: flex-start; }
 }
 @media (pointer: coarse) {
-  .site-nav a, .hero-social a, .footer-links a, .paper-links a, .paper-index a, .programme-index a { padding-block: 10px; }
+  .site-nav a, .hero-academic a, .hero-social a, .footer-links a, .paper-links a, .paper-index a, .programme-index a { padding-block: 10px; }
   summary { padding-block: 8px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
