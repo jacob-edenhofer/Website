@@ -9,8 +9,10 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
   const paragraphs = paper.kind === "manuscript"
     ? paper.abstract.split(/\n\s*\n/)
     : [paper.abstract.replace(/\s*\n\s*/g, " ")];
-  const researchLinks = paper.links.filter((link) => link.category === "research");
   const hasMediaCoverage = paper.links.some((link) => link.category === "coverage");
+  const primaryLinks = hasMediaCoverage
+    ? paper.links.filter((link) => link.category === "research")
+    : paper.links;
   const commentaryGroups = [
     { category: "authors", title: "By the authors" },
     { category: "coverage", title: "Media coverage" },
@@ -25,15 +27,15 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
         <h3>{paper.subtitle ? `${paper.title} ${paper.subtitle}` : paper.title}</h3>
         <p className="paper-authors">{paper.authors}</p>
         <p className="paper-meta">{metadata}</p>
-        {researchLinks.length > 0 && (
+        {primaryLinks.length > 0 && (
           <div className="paper-links">
-            {researchLinks.map((link) => (
+            {primaryLinks.map((link) => (
               <a href={link.href} key={link.href}>{link.label}</a>
             ))}
           </div>
         )}
-        {commentaryGroups.length > 0 && (
-          hasMediaCoverage ? <dl className="paper-link-groups">
+        {hasMediaCoverage && (
+          <dl className="paper-link-groups">
             {commentaryGroups.map((group) => (
               <div className="paper-link-group" key={group.category}>
                 <dt>{group.title}</dt>
@@ -45,11 +47,6 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
               </div>
             ))}
           </dl>
-          : <div className="paper-links">
-              {commentaryGroups.flatMap((group) => group.links).map((link) => (
-                <a href={link.href} key={link.href}>{link.label}</a>
-              ))}
-            </div>
         )}
       </div>
       {paper.abstract ? (
