@@ -23,6 +23,31 @@ export function Header() {
               <Link href="/file-drawer">File drawer</Link>
               <a href={sitePath("/Jacob_Edenhofer_CV.pdf")}>CV</a>
             </nav>
+            <nav className="mobile-nav" aria-label="Main navigation">
+              <a className="home-link" href={sitePath("/")}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
+                  <path d="m3 10 9-7 9 7" />
+                  <path d="M5 9v12h5v-7h4v7h5V9" />
+                </svg>
+                Home
+              </a>
+              <a href={sitePath("/research/")}>Research</a>
+              <a href={sitePath("/Jacob_Edenhofer_CV.pdf")}>CV</a>
+              <details className="mobile-menu">
+                <summary>
+                  Menu
+                  <svg className="mobile-menu-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </summary>
+                <div className="mobile-menu-links">
+                  <a href={sitePath("/writing/")}>Public writing &amp; engagement</a>
+                  <a href={sitePath("/teaching/")}>Teaching</a>
+                  <a href={sitePath("/service/")}>Service</a>
+                  <a href={sitePath("/file-drawer/")}>File drawer</a>
+                </div>
+              </details>
+            </nav>
           </div>
         </div>
       </div>
