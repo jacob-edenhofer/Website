@@ -89,6 +89,7 @@ export const research: ResearchItem[] = [
       { label: "Verfassungsblog", href: "https://verfassungsblog.de/german-federal-climate-protection-act/", category: "authors" },
       { label: "Summary thread (Claudia Zwar)", href: "https://threadreaderapp.com/thread/1830612008401825845.html", category: "authors" },
       { label: "Thread on the Ariadne report (German)", href: "https://threadreaderapp.com/thread/1722216966608523757.html", category: "authors" },
+      { label: "Tagesspiegel Background", href: "https://background.tagesspiegel.de/energie-und-klima/briefing/forschende-machen-vorschlaege-fuer-neues-klimaschutzgesetz", category: "coverage" },
     ],
   },
   {
