@@ -27,9 +27,9 @@ export type ResearchItem = {
 
 export const dphilManuscript: ResearchItem = {
   slug: "uncertain-mandates-durable-stringency",
-  title: "Uncertain Mandates, Durable Stringency",
+  title: "Politics Out of Time?",
   authors: "Jacob Edenhofer",
-  subtitle: "Electoral signals and producer adjustment in climate policy",
+  subtitle: "Public Opinion Uncertainty, Producer Adjustment, and the Limits of Climate Ambition",
   kind: "manuscript",
   status: "DPhil manuscript",
   venue: "University of Oxford",
@@ -52,7 +52,7 @@ export const research: ResearchItem[] = [
     programmes: ["climate"],
     selected: true,
     summary: "Net zero requires a sequence of politically costly changes across sectors. We examine how electoral demand, visible costs and adjustment by producers influence the adoption and durability of climate policy.",
-    abstract: "The transition to net zero requires governments to sustain successive increases in policy stringency as their costs become politically consequential. We develop a framework that distinguishes stringency at adoption from the share that remains sustainable, explaining both through electoral demand, the relative power of clean and carbon-intensive producers, and the distribution of adjustment costs. Durability depends on whether pro-climate electoral or policy-seeking incentives persist or recur long enough to induce adjustment and whether governments can contain costs for voters while preserving the returns that make adjustment worthwhile for producers. Baseline credibility helps initiate adjustment, which can subsequently weaken organised opposition and reinforce maintenance without generating the impetus for further increases. The framework identifies conditions for *quiet accumulation* under persistent policy-seeking incentives and latent electoral demand, *punctuated accumulation* through clear electoral openings, and *policy cycling* when changes in governing incentives undermine adopted stringency before adjustment generates sufficient support for its maintenance.",
+    abstract: "The transition to net zero requires governments to sustain successive increases in policy stringency as their costs become politically consequential. We synthesise the climate politics literature via a conceptual framework linking electoral demand, the relative power of clean and carbon-intensive producers, and the distribution of adjustment costs to adopted stringency and the share that can be sustained. Durability depends on pro-climate electoral or policy-seeking incentives persisting or recurring long enough to induce adjustment and on policy design that contains costs for voters while preserving producers’ incentives to adjust. Persistent policy-seeking incentives under latent electoral demand can produce *quiet accumulation*, allowing gradual progress despite limited public attention. Such progress can stall below the stringency required for net zero when adjusted producers defend existing policy without supporting further increases. Episodes of clear electoral demand can produce *punctuated accumulation* if governments induce sufficient adjustment to sustain large adopted increases after electoral pressure subsides. Under *policy cycling*, repeated changes in governing incentives erode earlier gains, making cumulative progress dependent on strengthening the incentives of subsequent governments to retain adopted stringency.",
     links: [],
   },
   {
