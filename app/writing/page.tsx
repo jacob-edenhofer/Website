@@ -3,6 +3,7 @@ import { sitePath } from "../../site.config.mjs";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Markdown, MarkdownParagraph } from "../components/Markdown";
+import { TwitterThreads } from "../components/TwitterThreads";
 import {
   democracyAndAdvice,
   publicAffairsWriting,
@@ -12,7 +13,7 @@ import {
 } from "../data/writing";
 
 export const metadata: Metadata = {
-  title: "Popular writing and engagement · Jacob Edenhofer",
+  title: "Public writing and engagement · Jacob Edenhofer",
   description: "Essays, research summaries, public discussions, and notes on climate policy, political economy, and liberal democracy.",
 };
 
@@ -57,20 +58,20 @@ export default function WritingPage() {
       <main id="main-content">
         <section className="page-intro page-width writing-intro">
           <p className="eyebrow">Beyond academic journals</p>
-          <h1>Writing</h1>
+          <h1>Public writing &amp; engagement</h1>
           <Markdown file="writing" />
           <div className="inline-links intro-links">
             <a className="text-link" href="https://jacobedenhofer.substack.com/">Substack</a>
             <a className="text-link" href="https://bsky.app/profile/jacobedenhofer.bsky.social">Bluesky</a>
             <a className="text-link" href="https://x.com/edenhofer_jacob">Twitter/X</a>
-            <a className="text-link" href="https://threadreaderapp.com/user/edenhofer_jacob">Selected threads</a>
           </div>
         </section>
 
-        <nav className="programme-index page-width" aria-label="Popular writing and engagement sections">
+        <nav className="programme-index page-width" aria-label="Public writing and engagement sections">
           {sections.map((section) => (
             <a href={`#${section.id}`} key={section.id}>{section.title}</a>
           ))}
+          <a href="#twitter-threads">Twitter threads</a>
         </nav>
 
         <div className="writing-sections page-width">
@@ -85,6 +86,7 @@ export default function WritingPage() {
               </div>
             </section>
           ))}
+          <TwitterThreads />
         </div>
       </main>
       <Footer />
