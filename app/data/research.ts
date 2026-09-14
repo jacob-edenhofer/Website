@@ -22,7 +22,7 @@ export type ResearchItem = {
   summary: string;
   abstract: string;
   selected?: boolean;
-  links: Array<{ label: string; href: string }>;
+  links: Array<{ label: string; href: string; category: "research" | "authors" | "coverage" }>;
 };
 
 export const dphilManuscript: ResearchItem = {
@@ -68,8 +68,8 @@ export const research: ResearchItem[] = [
     summary: "Households facing large electricity price increases became substantially more likely to support the AfD. The change persisted despite generous compensation.",
     abstract: "We study Germany’s electricity price increases in 2022 and 2023 using four waves of original panel data. Identification exploits the timing of changes in monthly household instalment payments, which was plausibly unrelated to household characteristics. In a staggered difference-in-differences design, respondents whose increase exceeded the median became 7.5 percentage points more likely to support the AfD. The change persisted, while broader political attitudes adjusted afterwards. The result arose although climate policy did not cause the shock and compensation was generous. We interpret the evidence through a spatial voting model in which the loss increases the value of a party’s promise of lower future energy costs.",
     links: [
-      { label: "Paper", href: "https://www.ifo.de/DocDL/cesifo1_wp12887.pdf" },
-      { label: "Rivista Eco", href: "https://www.rivistaeco.com/2024/10/18/in-germania-la-crisi-energetica-ha-favorito-la-destra-populista/" },
+      { label: "Paper", href: "https://www.ifo.de/DocDL/cesifo1_wp12887.pdf", category: "research" },
+      { label: "Rivista Eco", href: "https://www.rivistaeco.com/2024/10/18/in-germania-la-crisi-energetica-ha-favorito-la-destra-populista/", category: "authors" },
     ],
   },
   {
@@ -84,11 +84,11 @@ export const research: ResearchItem[] = [
     summary: "We develop a comparative framework for studying how climate laws and advisory bodies affect policymaking in different political contexts.",
     abstract: "Climate laws and advisory bodies have proliferated, yet existing work offers limited guidance for comparing their effects on the policymaking process. We develop the Climate Institutions Analysis Framework, which relates the formal functions of an institution to contextual characteristics and the political problems that the institution may address. Applications to Germany, the United Kingdom, Sweden and Australia show that these institutions can support agenda formation, increase transparency, signal commitment and hold governments accountable. Similar formal designs can have different effects across countries because political context influences how their functions operate.",
     links: [
-      { label: "Paper", href: "https://osf.io/preprints/socarxiv/jf8ah_v2/" },
-      { label: "Ariadne report (2023)", href: "https://ariadneprojekt.de/en/publication/report-mapping-variation-in-institutions-for-climate-policymaking/" },
-      { label: "Verfassungsblog", href: "https://verfassungsblog.de/german-federal-climate-protection-act/" },
-      { label: "Summary thread (Claudia Zwar)", href: "https://threadreaderapp.com/thread/1830612008401825845.html" },
-      { label: "Thread on the Ariadne report (German)", href: "https://threadreaderapp.com/thread/1722216966608523757.html" },
+      { label: "Paper", href: "https://osf.io/preprints/socarxiv/jf8ah_v2/", category: "research" },
+      { label: "Ariadne report (2023)", href: "https://ariadneprojekt.de/en/publication/report-mapping-variation-in-institutions-for-climate-policymaking/", category: "research" },
+      { label: "Verfassungsblog", href: "https://verfassungsblog.de/german-federal-climate-protection-act/", category: "authors" },
+      { label: "Summary thread (Claudia Zwar)", href: "https://threadreaderapp.com/thread/1830612008401825845.html", category: "authors" },
+      { label: "Thread on the Ariadne report (German)", href: "https://threadreaderapp.com/thread/1722216966608523757.html", category: "authors" },
     ],
   },
   {
@@ -103,8 +103,8 @@ export const research: ResearchItem[] = [
     summary: "The Climate Politics Framework provides a common structure for analysing climate policymaking and is illustrated through the German experience.",
     abstract: "This paper introduces the Climate Politics Framework (CPF), a novel and comprehensive approach to analysing climate policymaking. The CPF sets out four fundamental problems—pervasive collective action challenges, distributional dynamics, long-term policy, and deep uncertainty—that shape both elite and mass-level climate politics. These, in turn, influence the stringency and design of climate policy platforms, which consist of institutions, policy instruments, as well as framing and rhetoric. These platforms can both cause emissions reductions—the main dependent variable of interest—and address strategic challenges in the climate policy process (e.g. agenda-setting, coordination, compensation, and commitment), thereby altering political dynamics over time. Applying the CPF to Germany, based on elite interviews and a literature review, we analyse key episodes and structural features of German climate policy over the past four decades. The CPF offers both an academic contribution—by synthesising disparate strands of the climate politics literature—and, with a view to future applications, a practical tool for policymakers and stakeholders to diagnose political barriers and identify pathways for effective climate policymaking.",
     links: [
-      { label: "Paper", href: "https://doi.org/10.31235/osf.io/qkbj3_v1" },
-      { label: "Summary thread", href: "https://threadreaderapp.com/thread/1939770607953989817.html" },
+      { label: "Paper", href: "https://doi.org/10.31235/osf.io/qkbj3_v1", category: "research" },
+      { label: "Summary thread", href: "https://threadreaderapp.com/thread/1939770607953989817.html", category: "authors" },
     ],
   },
   {
@@ -118,7 +118,7 @@ export const research: ResearchItem[] = [
     programmes: ["climate"],
     summary: "The project examines whether corporatist institutions strengthen incumbent producers or facilitate negotiated adjustment during decarbonisation.",
     abstract: "The effect of corporatism on climate policy—which has received renewed attention as the literature on climate politics has taken an *institutional turn*—is theoretically disputed and empirically ambiguous. Given that, this paper seeks to revisit the relationship between corporatism and climate policy theoretically and empirically. Theoretically, I will defend two sets of claims. First, I argue that corporatism is, *ceteris paribus*, detrimental to stringent climate policy when the economic importance of carbon-intensive industry is high, while the reverse holds when electoral competition from green parties advocating stringent climate policy is high. Second, corporatism, I submit, has a tendency to impose a relatively greater share of costs on consumers than producers, especially when the economy is highly open. Yet, high electoral competitiveness, in particular when driven by green parties, counteracts this tendency.\n\nEmpirically, I extend existing analyses and use newly available data to provide evidence for these hypotheses by estimating a series of fixed-effects specifications.",
-    links: [{ label: "Project", href: "https://github.com/jacob-edenhofer/Research-paper-CPEAD" }],
+    links: [{ label: "Project", href: "https://github.com/jacob-edenhofer/Research-paper-CPEAD", category: "research" }],
   },
   {
     slug: "local-decline-populism",
@@ -133,10 +133,10 @@ export const research: ResearchItem[] = [
     summary: "High-street vacancies are associated with greater support for UKIP, including among people who did not work in retail.",
     abstract: "Support for the populist right varies considerably across regions and is concentrated in places that have experienced economic decline. We assemble new data on roughly 83,000 vacant commercial premises in England and Wales and examine their association with support for UKIP between 2009 and 2019. Areas with higher high-street vacancy rates display greater UKIP support. The association also appears among residents who did not work in retail, which is consistent with political effects arising from a visible deterioration in the local environment.",
     links: [
-      { label: "Paper", href: "https://doi.org/10.1016/j.econlet.2025.112360" },
-      { label: "VoxEU", href: "https://cepr.org/voxeu/columns/local-decline-and-populism" },
-      { label: "FAZ", href: "https://zeitung.faz.net/faz/wirtschaft/2025-04-07/naehrboden-fuer-populisten/1151252.html#verschenken" },
-      { label: "FAZ — ‘Bald schrumpft die Menschheit’", href: "https://www.faz.net/aktuell/wirtschaft/geburtenraten-und-bevoelkerungsprognosen-bald-schrumpft-die-menschheit-110535133.html" },
+      { label: "Paper", href: "https://doi.org/10.1016/j.econlet.2025.112360", category: "research" },
+      { label: "VoxEU", href: "https://cepr.org/voxeu/columns/local-decline-and-populism", category: "authors" },
+      { label: "FAZ", href: "https://zeitung.faz.net/faz/wirtschaft/2025-04-07/naehrboden-fuer-populisten/1151252.html#verschenken", category: "authors" },
+      { label: "FAZ — ‘Bald schrumpft die Menschheit’", href: "https://www.faz.net/aktuell/wirtschaft/geburtenraten-und-bevoelkerungsprognosen-bald-schrumpft-die-menschheit-110535133.html", category: "coverage" },
     ],
   },
   {
@@ -151,12 +151,12 @@ export const research: ResearchItem[] = [
     summary: "Brexit produced large and widespread losses in output and household income, with especially large effects in prosperous and trade-integrated regions.",
     abstract: "We estimate the regional distribution of Brexit’s economic costs using synthetic controls for real gross value added and nominal gross disposable household income at several levels of geographic aggregation. Placebo-weighted counterfactuals cover treatment windows beginning after 2016 and after 2020. Around 70 per cent of local authority districts record output or income below their synthetic counterfactual. Losses are concentrated in initially prosperous and trade-integrated regions, especially London, the South East and Scotland. Brexit therefore reduced some regional disparities through larger declines in initially stronger regions.",
     links: [
-      { label: "Paper", href: "https://wrap.warwick.ac.uk/id/eprint/202321/" },
-      { label: "Interactive results", href: "https://brexitcost.org/" },
-      { label: "UKICE", href: "https://ukandeu.ac.uk/levelling-up-by-levelling-down-the-economic-and-political-costs-of-brexit/" },
-      { label: "Warwick summary", href: "https://warwick.ac.uk/fac/soc/economics/news/2026/6/new_research_maps_the_regional_cost_of_brexit_uk_levelled_down_not_levelled_up/" },
-      { label: "Financial Times", href: "https://www.ft.com/content/9edec5f5-c3aa-4dfc-8ab4-f7d4ef559a7a" },
-      { label: "FT comment", href: "https://www.ft.com/content/c338cee8-3f61-4080-b4c7-a8817fd6cc8e" },
+      { label: "Paper", href: "https://wrap.warwick.ac.uk/id/eprint/202321/", category: "research" },
+      { label: "Interactive results", href: "https://brexitcost.org/", category: "research" },
+      { label: "UKICE", href: "https://ukandeu.ac.uk/levelling-up-by-levelling-down-the-economic-and-political-costs-of-brexit/", category: "authors" },
+      { label: "Warwick summary", href: "https://warwick.ac.uk/fac/soc/economics/news/2026/6/new_research_maps_the_regional_cost_of_brexit_uk_levelled_down_not_levelled_up/", category: "coverage" },
+      { label: "Financial Times", href: "https://www.ft.com/content/9edec5f5-c3aa-4dfc-8ab4-f7d4ef559a7a", category: "coverage" },
+      { label: "FT comment", href: "https://www.ft.com/content/c338cee8-3f61-4080-b4c7-a8817fd6cc8e", category: "coverage" },
     ],
   },
   {
@@ -171,8 +171,8 @@ export const research: ResearchItem[] = [
     summary: "We examine how limits on the information that governments can gather, process and use constrain fiscal responses to crises.",
     abstract: "Formal conceptions of state capacity have mostly focused on indirect measures of state capacity—by, for instance, using the state’s fiscal or extractive capacity as a proxy for its overall capacity. Yet, this input or extractive view of state capacity falls short, especially since cross-country empirical evidence suggests that similar levels of fiscal capacity, measured by tax revenues as a percentage of GDP, can produce starkly different outputs—both in classic economic terms and in broader terms that citizens would recognise as desirable outcomes, including quality of life, health, security, equality of opportunity, and inter-generational mobility. This paper argues that a central step towards addressing these shortcomings of the conventional view is to account for a crucial and largely ignored boundary of the state or dimension of state capacity: its capacity to gather, process, and deploy information in its conduct of fiscal policy. Specifically, we study how the presence or lack of such informational capacity constrains governments in responding to crises, such as the recent energy price shock. Our framework provides the analytical toolkit to examine how the informational boundary of the state shapes the incentives for policymakers to resort to untargeted and/or distortionary policy instruments, as opposed to targeted and non-distortionary ones, in responding to crises. The policy response to the energy crisis following the invasion of Ukraine provides the empirical context upon which we bring this theoretical framework to bear on data, though the latter can be straightforwardly extended to other recent crises.",
     links: [
-      { label: "Paper", href: "https://cepr.org/publications/dp18773" },
-      { label: "VoxEU", href: "https://cepr.org/voxeu/columns/informational-boundaries-state-and-energy-crisis" },
+      { label: "Paper", href: "https://cepr.org/publications/dp18773", category: "research" },
+      { label: "VoxEU", href: "https://cepr.org/voxeu/columns/informational-boundaries-state-and-energy-crisis", category: "authors" },
     ],
   },
   {
@@ -187,7 +187,7 @@ export const research: ResearchItem[] = [
     programmes: ["state-capacity"],
     summary: "We examine when conflict between conventional firms and AI firms creates support for investment in the legal and administrative capacity to tax rents from artificial intelligence.",
     abstract: "Artificial intelligence may reduce labour’s share of income and weaken revenues from taxes on labour. Taxing rents from AI requires legal and administrative capacity to identify and value those returns. In the absence of this capacity, governments may use broad taxes on capital that impose a substantial burden on conventional firms. More targeted taxation gives those firms a reason to support investment in fiscal capacity. We develop a political economy model to examine when this support leads to investment as AI firms gain political power. The analysis considers the effects of inequality, declining revenues from taxes on labour, the speed of the transition and the relative political power of conventional and AI firms.",
-    links: [{ label: "Paper", href: "https://doi.org/10.2139/ssrn.7368958" }],
+    links: [{ label: "Paper", href: "https://doi.org/10.2139/ssrn.7368958", category: "research" }],
   },
   {
     slug: "inflation-redistribution",
@@ -239,7 +239,7 @@ export const research: ResearchItem[] = [
     programmes: ["cpe"],
     summary: "We assess Rodrik’s programme for reconciling prosperity in advanced economies, development opportunities in poorer countries and effective climate policy.",
     abstract: "We review Dani Rodrik’s case for productivism, which seeks to strengthen democratic stability and prosperity by creating good jobs, increasingly in services. We identify three limitations. First, good jobs and higher wages offer an incomplete basis for economic security, which also depends on affordable essentials and opportunities to accumulate wealth. Unequal access to housing and other assets can also weaken the political coalition supporting the programme. Second, growth driven by services can disproportionately benefit affluent urban populations while employment expands in services with limited scope for productivity growth. Third, unilateral industrial policy presupposes economic and geopolitical power that smaller countries often lack. These countries face tighter fiscal constraints and greater exposure to pressure from powerful states. Cooperation can strengthen their bargaining position while constraining domestic policy choices.",
-    links: [{ label: "Review", href: "https://doi.org/10.1111/1475-4932.70046" }],
+    links: [{ label: "Review", href: "https://doi.org/10.1111/1475-4932.70046", category: "research" }],
   },
   {
     slug: "technocratic-democracies",
@@ -253,12 +253,12 @@ export const research: ResearchItem[] = [
     summary: "Delegation to technocrats can provide insurance for a majority that fears losing power, while changes in the persistence of majorities can generate institutional cycles.",
     abstract: "We develop a model of democracies that delegate policy to unelected technocrats. Delegation is attractive when a current majority fears losing power and expects technocrats to maintain policies it values. These arrangements can remain stable, while changes that make majority status or technocratic policy more persistent can generate repeated reforms between more technocratic and more majoritarian institutions. Applications to central bank independence, fiscal rules and climate policy illustrate how such cycles arise and how they can increase the risk of democratic backsliding.",
     links: [
-      { label: "Paper", href: "https://doi.org/10.1080/13501763.2025.2576160" },
-      { label: "ProMarket", href: "https://www.promarket.org/2025/05/14/behind-populists-anti-technocratic-fervor-and-its-consequences-for-liberal-democracy/" },
-      { label: "The Argument", href: "https://www.theargumentmag.com/p/the-price-of-expertise" },
-      { label: "Podcast with Gabriele Gratton", href: "https://www.theargumentmag.com/p/how-liberal-elite-failure-fueled" },
-      { label: "Summary thread", href: "https://threadreaderapp.com/thread/1990822736554307921.html" },
-      { label: "Longer thread (working paper)", href: "https://threadreaderapp.com/thread/1886335627974651908.html" },
+      { label: "Paper", href: "https://doi.org/10.1080/13501763.2025.2576160", category: "research" },
+      { label: "ProMarket", href: "https://www.promarket.org/2025/05/14/behind-populists-anti-technocratic-fervor-and-its-consequences-for-liberal-democracy/", category: "authors" },
+      { label: "The Argument", href: "https://www.theargumentmag.com/p/the-price-of-expertise", category: "coverage" },
+      { label: "Podcast with Gabriele Gratton", href: "https://www.theargumentmag.com/p/how-liberal-elite-failure-fueled", category: "coverage" },
+      { label: "Summary thread", href: "https://threadreaderapp.com/thread/1990822736554307921.html", category: "authors" },
+      { label: "Longer thread (working paper)", href: "https://threadreaderapp.com/thread/1886335627974651908.html", category: "authors" },
     ],
   },
 
