@@ -1,1 +1,1 @@
-I write essays, research summaries, and [Twitter threads](#twitter-threads) on climate policy, comparative political economy, and liberal democracy. This page also collects my public discussions and presentations.
+I write essays, research summaries, and [Twitter threads](#twitter-threads) on climate policy, comparative political economy, and liberal democracy. This page also collects my panel discussions and presentations.
