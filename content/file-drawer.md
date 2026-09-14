@@ -1,7 +1,5 @@
 # The file drawer
 
-[View projects](#projects)
-
 Ideally, social science should be an institutionalised reflective equilibrium between theory and empirical work—through which arguments guide empirical inquiry and findings prompt revisions to our assumptions, explanations, and questions ([Ashworth et al., 2021](https://academic.oup.com/princeton-scholarship-online/book/42453); [Little and Pepinsky, 2021](https://doi.org/10.1086/710088))—with each scholar contributing according to their comparative advantage. In addition to clear theorising and, as the credibility revolution has taught us, attention to the identification challenges associated with testing the empirical implications of theories, this also requires care in thinking about the scope conditions and external validity of findings.<sup><a href="#file-drawer-note-2" id="file-drawer-ref-2" role="doc-noteref" aria-label="Footnote 1">1</a></sup>
 
 More fundamentally, perhaps, this requires the willingness by individual researchers to be usefully wrong (though being right never hurts, of course)—an aspiration reflected in the title of my Substack, [*Often wrong, but sometimes useful*](https://jacobedenhofer.substack.com/). Yet the incentives of academic publishing and career progression can encourage researchers to retrofit questions or theoretical intuitions to the methods they are familiar with or leave “unsuccessful” projects unpublished. In working on my research projects, I try to resist these temptations, knowing that I will sometimes fall short.
