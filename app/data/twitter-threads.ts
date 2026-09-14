@@ -442,7 +442,7 @@ export const threadGroups: ThreadGroup[] = [
   },
   {
     "id": "research",
-    "title": "Research methods",
+    "title": "Other",
     "items": [
       {
         "id": "2085095990592188549",
