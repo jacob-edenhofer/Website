@@ -212,7 +212,7 @@ export const research: ResearchItem[] = [
   {
     slug: "fairness-tax-transfer-climate",
     title: "Fairness, Tax-and-Transfer Systems, and Climate Policy",
-    authors: "Jacob Edenhofer, Michael Pahle, and David Rueda",
+    authors: "Jacob Edenhofer, David Rueda, and Michael Pahle",
     kind: "work-in-progress",
     status: "Work in progress",
     venue: "Draft",
