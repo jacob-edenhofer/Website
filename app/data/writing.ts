@@ -94,7 +94,7 @@ export const reviewsAndEssays: WritingItem[] = [
     outlet: "Economic Record 102 (338), 476–80",
     date: "2026",
     href: "https://doi.org/10.1111/1475-4932.70046",
-    description: "We review Rodrik’s programme for the middle class, poorer countries, and climate policy.",
+    description: "We assess Rodrik’s case for productivism, examining the limits of good jobs as a basis for economic security, the unequal benefits of growth driven by services, and the constraints smaller countries face in pursuing industrial policy.",
   },
   {
     title: "From Quiet to Noisy Politics: An Excellent Book on Corporate Power in Democracies",
