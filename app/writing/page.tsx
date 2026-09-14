@@ -49,6 +49,10 @@ const sections = [
     items: researchCommentary,
   },
   {
+    id: "twitter-threads",
+    title: "Twitter threads",
+  },
+  {
     id: "public-engagement",
     title: "Public engagement",
     intro: "These discussions, presentations, and tentative notes examine climate policy, expertise, democratic authority, and populism.",
@@ -76,11 +80,10 @@ export default function WritingPage() {
           {sections.map((section) => (
             <a href={`#${section.id}`} key={section.id}>{section.title}</a>
           ))}
-          <a href="#twitter-threads">Twitter threads</a>
         </nav>
 
         <div className="writing-sections page-width">
-          {sections.map((section) => (
+          {sections.map((section) => section.items ? (
             <section className="writing-section" id={section.id} key={section.id}>
               <header className="writing-section-heading">
                 <h2>{section.title}</h2>
@@ -90,8 +93,9 @@ export default function WritingPage() {
                 {section.items.map((item) => <WritingEntry item={item} key={item.title} />)}
               </div>
             </section>
+          ) : (
+            <TwitterThreads key={section.id} />
           ))}
-          <TwitterThreads />
         </div>
       </main>
       <Footer />
