@@ -74,7 +74,7 @@ export const research: ResearchItem[] = [
   },
   {
     slug: "climate-institutions",
-    title: "(How) Do Climate Institutions Matter? Presenting and Applying a New Framework for the Comparative Analysis of Climate Institutions",
+    title: "How do climate institutions matter? Strategic challenges and the policy process effects of climate institutions",
     authors: "Claudia Zwar, Jacob Edenhofer, and Christian Flachsland",
     kind: "revise-and-resubmit",
     status: "Third-round revise and resubmit",
