@@ -6,7 +6,7 @@ I teach formal political economy at Oxford and have worked as a teaching assista
 
 Oxford · Trinity Term · 2025 and 2026
 
-This course has two objectives. The first is to formally introduce students to some canonical political economy models and, in doing so, to help them engage more deeply and critically with the modern literature. The second is to develop a more nuanced understanding of the strategic rationales that underlie the existence of two institutions that characterise modern democracies, elections and interest groups.
+This short, optional course runs for four weeks and is offered as one of the “methods options”. It is designed as a sequel to the introductory game theory course taught during Hilary term. Its first objective is to illustrate how the concepts students learn in that course are used in the political economy literature, helping them engage more deeply and critically with modern research. The second is to develop a more nuanced understanding of the strategic rationales that underlie the existence of two institutions that characterise modern democracies, elections and interest groups.
 
 Such an understanding is of scholarly interest and of importance for reflecting on what it means to be a good democratic citizen, both in private, when casting a vote, and in public, when choosing an occupation and making everyday decisions in jobs that are directly and indirectly related to public policymaking. My hope is that the formal demands of the models will not deter us from exploring their implications for our lived experience.
 
