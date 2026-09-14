@@ -42,13 +42,13 @@ const themes = [
   {
     id: "theme-populism",
     title: "Populism",
-    description: "These papers examine how local decline, sudden economic losses, and the regional consequences of Brexit influence support for populist parties.",
+    description: "These papers examine how rising energy prices and local economic decline affect support for the populist right. They also assess the regional economic consequences of Brexit.",
     papers: researchByProgramme.populism,
   },
   {
     id: "theme-state-capacity",
     title: "State capacity",
-    description: "These papers examine how information constrains fiscal policy and how political conflict influences investment in the legal and administrative capacity to tax.",
+    description: "These papers examine how limited information constrains governments’ ability to target taxes and compensation, and when conflict between firms generates support for investment in fiscal capacity.",
     papers: researchByProgramme.stateCapacity,
   },
   {
