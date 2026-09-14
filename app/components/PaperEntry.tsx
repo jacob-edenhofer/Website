@@ -10,8 +10,9 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
     ? paper.abstract.split(/\n\s*\n/)
     : [paper.abstract.replace(/\s*\n\s*/g, " ")];
   const researchLinks = paper.links.filter((link) => link.category === "research");
+  const hasMediaCoverage = paper.links.some((link) => link.category === "coverage");
   const commentaryGroups = [
-    { category: "authors", title: "Authors’ writing" },
+    { category: "authors", title: "By the authors" },
     { category: "coverage", title: "Media coverage" },
   ].map((group) => ({
     ...group,
@@ -32,7 +33,7 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
           </div>
         )}
         {commentaryGroups.length > 0 && (
-          <dl className="paper-link-groups">
+          hasMediaCoverage ? <dl className="paper-link-groups">
             {commentaryGroups.map((group) => (
               <div className="paper-link-group" key={group.category}>
                 <dt>{group.title}</dt>
@@ -44,6 +45,11 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
               </div>
             ))}
           </dl>
+          : <div className="paper-links">
+              {commentaryGroups.flatMap((group) => group.links).map((link) => (
+                <a href={link.href} key={link.href}>{link.label}</a>
+              ))}
+            </div>
         )}
       </div>
       {paper.abstract ? (
