@@ -84,7 +84,7 @@ export const research: ResearchItem[] = [
     summary: "We develop a comparative framework for studying how climate laws and advisory bodies affect policymaking in different political contexts.",
     abstract: "Climate laws and advisory bodies have proliferated, yet existing work offers limited guidance for comparing their effects on the policymaking process. We develop the Climate Institutions Analysis Framework, which relates the formal functions of an institution to contextual characteristics and the political problems that the institution may address. Applications to Germany, the United Kingdom, Sweden and Australia show that these institutions can support agenda formation, increase transparency, signal commitment and hold governments accountable. Similar formal designs can have different effects across countries because political context influences how their functions operate.",
     links: [
-      { label: "Preprint", href: "https://osf.io/preprints/socarxiv/jf8ah_v2/" },
+      { label: "Paper", href: "https://osf.io/preprints/socarxiv/jf8ah_v2/" },
       { label: "Ariadne report (2023)", href: "https://ariadneprojekt.de/en/publication/report-mapping-variation-in-institutions-for-climate-policymaking/" },
       { label: "Verfassungsblog", href: "https://verfassungsblog.de/german-federal-climate-protection-act/" },
     ],
@@ -100,7 +100,7 @@ export const research: ResearchItem[] = [
     programmes: ["climate"],
     summary: "The Climate Politics Framework provides a common structure for analysing climate policymaking and is illustrated through the German experience.",
     abstract: "This paper introduces the Climate Politics Framework (CPF), a novel and comprehensive approach to analysing climate policymaking. The CPF sets out four fundamental problems—pervasive collective action challenges, distributional dynamics, long-term policy, and deep uncertainty—that shape both elite and mass-level climate politics. These, in turn, influence the stringency and design of climate policy platforms, which consist of institutions, policy instruments, as well as framing and rhetoric. These platforms can both cause emissions reductions—the main dependent variable of interest—and address strategic challenges in the climate policy process (e.g. agenda-setting, coordination, compensation, and commitment), thereby altering political dynamics over time. Applying the CPF to Germany, based on elite interviews and a literature review, we analyse key episodes and structural features of German climate policy over the past four decades. The CPF offers both an academic contribution—by synthesising disparate strands of the climate politics literature—and, with a view to future applications, a practical tool for policymakers and stakeholders to diagnose political barriers and identify pathways for effective climate policymaking.",
-    links: [{ label: "Preprint", href: "https://doi.org/10.31235/osf.io/qkbj3_v1" }],
+    links: [{ label: "Paper", href: "https://doi.org/10.31235/osf.io/qkbj3_v1" }],
   },
   {
     slug: "corporatism-dirty-clean",
@@ -128,7 +128,7 @@ export const research: ResearchItem[] = [
     summary: "High-street vacancies are associated with greater support for UKIP, including among people who did not work in retail.",
     abstract: "Support for the populist right varies considerably across regions and is concentrated in places that have experienced economic decline. We assemble new data on roughly 83,000 vacant commercial premises in England and Wales and examine their association with support for UKIP between 2009 and 2019. Areas with higher high-street vacancy rates display greater UKIP support. The association also appears among residents who did not work in retail, which is consistent with political effects arising from a visible deterioration in the local environment.",
     links: [
-      { label: "Article", href: "https://doi.org/10.1016/j.econlet.2025.112360" },
+      { label: "Paper", href: "https://doi.org/10.1016/j.econlet.2025.112360" },
       { label: "VoxEU", href: "https://cepr.org/voxeu/columns/local-decline-and-populism" },
       { label: "FAZ", href: "https://zeitung.faz.net/faz/wirtschaft/2025-04-07/naehrboden-fuer-populisten/1151252.html#verschenken" },
     ],
@@ -247,7 +247,7 @@ export const research: ResearchItem[] = [
     summary: "Delegation to technocrats can provide insurance for a majority that fears losing power, while changes in the persistence of majorities can generate institutional cycles.",
     abstract: "We develop a model of democracies that delegate policy to unelected technocrats. Delegation is attractive when a current majority fears losing power and expects technocrats to maintain policies it values. These arrangements can remain stable, while changes that make majority status or technocratic policy more persistent can generate repeated reforms between more technocratic and more majoritarian institutions. Applications to central bank independence, fiscal rules and climate policy illustrate how such cycles arise and how they can increase the risk of democratic backsliding.",
     links: [
-      { label: "Article", href: "https://doi.org/10.1080/13501763.2025.2576160" },
+      { label: "Paper", href: "https://doi.org/10.1080/13501763.2025.2576160" },
       { label: "ProMarket", href: "https://www.promarket.org/2025/05/14/behind-populists-anti-technocratic-fervor-and-its-consequences-for-liberal-democracy/" },
     ],
   },
