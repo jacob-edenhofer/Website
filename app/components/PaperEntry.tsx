@@ -12,7 +12,7 @@ export function PaperEntry({ paper }: { paper: ResearchItem }) {
   const researchLinks = paper.links.filter((link) => link.category === "research");
   const commentaryGroups = [
     { category: "authors", title: "Authors’ writing" },
-    { category: "coverage", title: "External coverage" },
+    { category: "coverage", title: "Media coverage" },
   ].map((group) => ({
     ...group,
     links: paper.links.filter((link) => link.category === group.category),
