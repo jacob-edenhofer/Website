@@ -23,7 +23,7 @@ With [Henri Gruhl](https://www.henrigruhl.com/) (RWI – Leibniz Institute for E
 
 ### Motivation
 
-Women consistently express greater support for climate policy than men, yet the mechanisms behind this difference remain contested. We examine how people who are not personally exposed to job loss respond when climate policy displaces workers from traditionally masculine occupations. Even when relatively few workers lose their jobs, the wider public’s judgements about their losses and the compensation they deserve may influence support for the policy.
+Women consistently express greater support for climate policy than men, yet the mechanisms behind this difference remain contested. We examine how people who are not personally exposed to job loss respond when climate policy displaces workers from traditionally masculine occupations. Even when relatively few workers lose their jobs, the broader public’s judgements about their losses and the compensation they deserve may influence support for the policy.
 
 ### The theoretical intuition
 
