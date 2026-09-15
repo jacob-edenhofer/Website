@@ -14,35 +14,38 @@ While there is of course a limit to what any single individual can do, this part
 
 Critical scrutiny of the incentives of how we do modern social science and suggestions for reform are much needed, particularly in the age of generative artificial intelligence ([Munger, 2026](https://kevinmunger.substack.com/p/peer-review-2027)). But a single-minded focus on what is wrong risks giving rise to the impression that the entire system is broken. My own experience gives me reasons for a more hopeful view. In many ways, this website is an homage to the generous senior academics who have mentored me, from my supervisors to my co-authors and beyond, and to the ideals of intellectual curiosity, rigour, and generosity that they embody. Finally, the website also serves as a commitment device through which I hope to hold myself accountable to these ideals in my own research, knowing that I will sometimes fall short.
 
-<h2 id="projects" tabindex="-1">Green transition, brave new feminine world?</h2>
+<details class="file-drawer-project" id="projects">
+<summary><h2>Green transition, brave new feminine world?</h2><svg class="project-disclosure-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path class="project-disclosure-vertical" d="M12 5v14"/></svg></summary>
 
 2025–26 · Survey experiment
 
 With [Henri Gruhl](https://www.henrigruhl.com/) (RWI – Leibniz Institute for Economic Research and Vrije Universiteit Amsterdam), [Johannes Brehm](https://sites.google.com/view/johannesbrehm/home) (RWI – Leibniz Institute for Economic Research and Hertie School), and [Lara Hankeln](https://www.politics.ox.ac.uk/person/lara-hankeln) (University of Oxford)
 
-**Outcome**
+### Motivation
 
-The estimates did not support the predictions, and the test remained inconclusive.
+Women consistently express greater support for climate policy than men, yet the mechanisms behind this difference remain contested. We examine how people who are not personally exposed to job loss respond when climate policy displaces workers from traditionally masculine occupations. Even when relatively few workers lose their jobs, the wider public’s judgements about their losses and the compensation they deserve may influence support for the policy.
 
 ### The theoretical intuition
 
-Climate policy may threaten income, occupational identity, and status. We examined whether men in traditionally masculine sectors expressed greater support for compensation when a transition also involved movement into an occupation perceived as less masculine.
+Our argument distinguishes material losses from the loss of recognition associated with traditionally masculine work. When displaced workers move into another masculine occupation, disagreement over compensation chiefly reflects other-regarding motives and concerns about efficiency. A move into work associated with femininity also raises disagreement over whether the loss of masculine status deserves compensation. We expect men without tertiary education to be more inclined than women or graduates to view these losses as deserving compensation. Compensation may consequently struggle to build broad support because money cannot readily restore this recognition, while other respondents may reject compensation that they view as preserving gender hierarchies.
 
 ### The research design
 
-We pre-registered a survey experiment that varied characteristics of an occupational transition. The design attempted to isolate the gendered status of the destination occupation while keeping its material consequences constant.
+The pre-analysis plan specifies a survey experiment in Germany. Respondents assess a coal worker displaced by the coal phase-out who moves into either physically demanding technical work or emotionally demanding work involving direct interaction with people. Both versions provide temporary financial compensation and retraining, and describe the new job’s income, social standing, and security as unchanged. We measure support for cash transfers, retraining, and climate policy, and examine differences by respondents’ gender and education. Checks assess whether respondents perceived the intended occupational contrast without inferring different incomes.
 
 ### The result
 
-The treatment involved a difficult trade-off. The change in occupational status needed sufficient prominence to attract respondents’ attention. Greater prominence increased the risk of demand effects and socially desirable responses. The estimates did not support the pre-registered predictions. Weak manipulation checks prevent a decisive evaluation of the theory.
+The estimates did not support the pre-registered predictions. Weak manipulation checks leave unclear whether respondents perceived the intended occupational contrast. The findings therefore provide an inconclusive test of the proposed mechanism.
 
 ### Lessons for subsequent research
 
-A stronger test would use a setting in which gendered occupational status varies naturally and matters to respondents without explicit direction from the researcher. Qualitative evidence on how affected workers understand occupational status may provide a more suitable basis for a subsequent design.
+A subsequent design should establish that respondents recognise the intended difference in occupational status while treating wages, security, and overall prestige as comparable. Qualitative work could first investigate how members of the wider public interpret these transitions and judge whether the resulting losses deserve compensation.
 
 **Materials**
 
 [OSF project](https://osf.io/56juq/overview) · [Thread on the pre-analysis plan](https://threadreaderapp.com/thread/2000944001806168354.html) · [Thread on the results](https://threadreaderapp.com/thread/2085095990592188549.html)
+
+</details>
 
 <section class="footnotes" role="doc-endnotes" aria-label="Footnotes">
 <ol>
