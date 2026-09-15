@@ -12,7 +12,6 @@ export function TwitterThreads() {
     <section className="writing-section twitter-threads" id="twitter-threads">
       <header className="writing-section-heading">
         <h2>Twitter threads</h2>
-        <p>The links open on Thread Reader, where you can read the threads without a Twitter/X account.</p>
         <p>I started these threads when I was revising for my “Comparative Government” exams as a way to get feedback on my revision notes. They include summaries of the literature and tentative interpretations of its implications for current debates. The threads are grouped by theme, with the most recent first.</p>
       </header>
       <div className="thread-groups">

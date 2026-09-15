@@ -1,1 +1,1 @@
-I write essays, research summaries, and Twitter threads on climate policy, comparative political economy, and liberal democracy. This page also collects my panel discussions and presentations.
+I write essays, research summaries, and Twitter threads on climate policy, comparative political economy, and liberal democracy. The thread links open on Thread Reader, where you can read them without a Twitter/X account. This page also collects my panel discussions and presentations.
