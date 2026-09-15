@@ -36,7 +36,7 @@ const themes = [
   {
     id: "theme-climate",
     title: "Climate Politics",
-    description: "My DPhil manuscript and related papers examine when electoral pressure for climate action produces stringent policies that remain in place despite fluctuations in public attention and government turnover. They investigate how investment in cleaner production influences firms’ support for maintaining climate policy, how compensation affects voters’ willingness to accept its costs, and how climate laws and advisory bodies affect the climate policymaking process.",
+    description: "My DPhil manuscript and related papers examine when electoral incentives for climate action produce stringent policies that remain in place despite fluctuations in public attention and government turnover. They investigate how investment in cleaner production influences firms’ support for maintaining climate policy, how compensation affects voters’ willingness to accept its costs, and how climate laws and advisory bodies affect the climate policymaking process.",
     papers: researchByProgramme.climate,
   },
   {

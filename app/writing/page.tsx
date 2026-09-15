@@ -39,13 +39,13 @@ const sections = [
   {
     id: "essays-reviews",
     title: "Essays and reviews",
-    intro: "These essays examine climate policy, economic policy, and democratic government.",
+    intro: "These essays discuss Germany’s climate legislation, climate policy amid geopolitical tensions, and the importance of democracy for climate action. The reviews examine corporate power in democracies and Rodrik’s proposals to strengthen economic security through good jobs.",
     items: [...reviewsAndEssays, ...publicAffairsWriting],
   },
   {
     id: "research-summaries",
     title: "Research summaries",
-    intro: "These summaries introduce published papers and working papers to readers beyond the immediate academic literature.",
+    intro: "These summaries introduce the central ideas or findings in my (working) papers to a non-academic audience.",
     items: researchCommentary,
   },
   {
@@ -73,6 +73,7 @@ export default function WritingPage() {
             <a className="text-link" href="https://jacobedenhofer.substack.com/">Substack</a>
             <a className="text-link" href="https://bsky.app/profile/jacobedenhofer.bsky.social">Bluesky</a>
             <a className="text-link" href="https://x.com/edenhofer_jacob">Twitter/X</a>
+            <a className="text-link" href="https://www.linkedin.com/in/jacob-edenhofer-403614264/">LinkedIn</a>
           </div>
         </section>
 
