@@ -3,7 +3,7 @@
 :root {
   --paper: #ffffff;
   --ink: #232b31;
-  --muted: #414b53;
+  --muted: #343e46;
   --line: #dce1e4;
   --blue: #284f69;
   --blue-dark: #23465e;
@@ -81,7 +81,7 @@ p { margin: 0 0 1.1em; }
 .prose li { margin-block: 8px; }
 .prose blockquote { margin-left: 0; padding-left: 22px; border-left: 2px solid var(--line); }
 .prose p:last-child { margin-bottom: 0; }
-.prose .footnotes { max-width: var(--text-width); margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); color: #343e46; font-size: .8125rem; line-height: 1.6; }
+.prose .footnotes { max-width: var(--text-width); margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .8125rem; line-height: 1.6; }
 .prose .footnotes ol { margin: 0; padding-left: 1.5em; }
 .file-drawer-project { margin-top: 42px; border-top: 1px solid var(--line); scroll-margin-top: 28px; }
 .file-drawer-project > summary { display: grid; grid-template-columns: minmax(0, 1fr) 18px; align-items: center; gap: 18px; width: 100%; min-height: 44px; padding-block: 22px; list-style: none; color: var(--ink); }
